@@ -6,7 +6,7 @@
 	export let text: string = '';
 </script>
 
-<div class="group flex items-center gap-2">
+<div class="group flex items-center justify-between gap-2">
 	<a {href} class="font-semibold transition-colors duration-200 hover:text-dry-sage-600">
 		{text}
 	</a>
