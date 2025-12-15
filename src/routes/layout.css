@@ -2,6 +2,8 @@
 @import 'tailwindcss';
 
 @theme {
+	--font-sans: 'Inter', system-ui, sans-serif;
+
 	--color-dry-sage-50: #f3f6ef;
 	--color-dry-sage-100: #e8f0de;
 	--color-dry-sage-200: #d5e3c4;
