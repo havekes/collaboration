@@ -7,7 +7,7 @@
 </script>
 
 <div class="group flex items-center justify-between gap-2">
-	<a {href} class="font-semibold transition-colors duration-200 hover:text-dry-sage-600">
+	<a {href} class="font-semibold transition-colors duration-200 group-hover:text-dry-sage-600">
 		{text}
 	</a>
 	<a
