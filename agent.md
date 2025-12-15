@@ -1,0 +1,2 @@
+Project guidelines:
+- Use tailwindcss
