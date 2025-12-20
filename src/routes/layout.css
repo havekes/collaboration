@@ -1,6 +1,11 @@
 @plugin '@tailwindcss/typography';
 @import 'tailwindcss';
 
+@source inline('{h-{0...96}}');
+@source inline('{bg-light-bronze-{50,{100..900..100},950},{group-hover:,}text-light-bronze-{50,{100..900..100},950}}');
+@source inline('{bg-cornsilk-{50,{100..900..100},950},{group-hover:,}text-cornsilk-{50,{100..900..100},950}}');
+@source inline('{bg-dry-sage-{50,{100..900..100},950},{group-hover:,}text-dry-sage-{50,{100..900..100},950}}');
+
 @theme {
 	--font-sans: 'Inter', system-ui, sans-serif;
 
