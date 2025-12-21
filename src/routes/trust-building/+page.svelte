@@ -104,7 +104,7 @@
 		<div class="absolute top-175 rotate-45 text-2xl text-gray-700">
 			<FontAwesomeIcon icon={faArrowsLeftRight} />
 		</div>
-		<div class="absolute top-130 ml-135 rotate-90 text-2xl text-gray-700">
+		<div class="absolute top-135 ml-135 rotate-90 text-2xl text-gray-700">
 			<FontAwesomeIcon icon={faArrowsLeftRight} />
 		</div>
 	</section>
