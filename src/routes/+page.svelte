@@ -135,7 +135,12 @@
 					Enhancing trust <FontAwesomeIcon icon={faArrowRight} /> to build effective partnership
 				</MainCard>
 
-				<MainCard icon={faScaleBalanced} title="Rolefulness" link="See rolefulness">
+				<MainCard
+					icon={faScaleBalanced}
+					title="Rolefulness"
+					href="/rolefulness"
+					link="See rolefulness"
+				>
 					Understanding roles <FontAwesomeIcon icon={faArrowRight} /> maintain & establish relationship
 				</MainCard>
 
