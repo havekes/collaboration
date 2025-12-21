@@ -46,7 +46,11 @@
 						See what factors help or hinder collaboration and the success of your partnerships.
 					</p>
 				</div>
-				<HighlightLink href="#" text="View facilitators and hindering factors" color="cornsilk" />
+				<HighlightLink
+					href="/facilitators-hindrances"
+					text="View facilitators and hindering factors"
+					color="cornsilk"
+				/>
 			</div>
 		</div>
 	</section>
@@ -62,7 +66,7 @@
 				<div class="space-y-6 text-lg">
 					<RoundedIcon icon={faHandsHolding}>How to foster it?</RoundedIcon>
 					<RoundedIcon icon={faTriangleExclamation}>Why is it important?</RoundedIcon>
-					<HighlightLink href="#" text="View best practices" />
+					<HighlightLink href="/best-practices" text="View best practices" />
 				</div>
 			</div>
 			<div class="w-2/3 flex-1">
@@ -138,7 +142,7 @@
 	<section class="container">
 		<div class="space-y-8">
 			<div class="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
-				<MainCard icon={faHandshake} title="Trust" link="See trust building">
+				<MainCard icon={faHandshake} title="Trust" href="/trust-building" link="See trust building">
 					Enhancing trust <FontAwesomeIcon icon={faArrowRight} /> to build effective partnership
 				</MainCard>
 

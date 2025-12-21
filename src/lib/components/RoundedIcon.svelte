@@ -10,5 +10,5 @@
 	>
 		<FontAwesomeIcon {icon} class="text-{color}-900" />
 	</div>
-	<span>{@render children?.()}</span>
+	<span>{@render children()}</span>
 </div>

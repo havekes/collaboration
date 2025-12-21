@@ -2,7 +2,7 @@
 	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 	import HighlightLink from './HighlightLink.svelte';
 
-	let { icon, title, link, children } = $props();
+	let { icon, title, link, href = '#', children } = $props();
 </script>
 
 <div
@@ -15,9 +15,9 @@
 		<h3 class=" text-lg font-semibold text-gray-800">{title}</h3>
 		<div class="flex flex-1 items-center">
 			<p class="text-base leading-relaxed text-gray-700">
-				{@render children?.()}
+				{@render children()}
 			</p>
 		</div>
-		<HighlightLink href="#" text={link} />
+		<HighlightLink {href} text={link} />
 	</div>
 </div>
