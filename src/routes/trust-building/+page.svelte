@@ -19,7 +19,7 @@
 	</section>
 
 	<section class="container flex items-start justify-center gap-20">
-		<Card theme="dry-sage" class="w-120">
+		<Card theme="dry-sage" class="w-120 min-w-120">
 			<h2 class="text-xl font-bold text-dry-sage-700">Trust Dimensions/Content Areas</h2>
 			<List>
 				<ListItem>

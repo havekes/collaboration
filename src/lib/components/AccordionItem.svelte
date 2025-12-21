@@ -45,7 +45,7 @@
 		</svg>
 	</button>
 	{#if open}
-		<div class="px-8 lg:pb-10" transition:slide|local={{ duration: 400 }}>
+		<div class="pb-10" transition:slide|local={{ duration: 400 }}>
 			<div class="grid grid-cols-2 gap-8">
 				<div class="space-y-4">
 					<h3 class="font-semibold {subTitleClasses}">How to foster it?</h3>

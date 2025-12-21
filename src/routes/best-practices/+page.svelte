@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			title: 'Communication',
+			title: 'Enhance Communication',
 			theme: 'dry-sage',
 			leftContent: [
 				'Designate a clear point of contact for streamlined communication.',
