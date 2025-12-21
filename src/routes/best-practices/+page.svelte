@@ -1,21 +1,28 @@
 <script lang="ts">
 	import AccordionItem from '$lib/components/AccordionItem.svelte';
-	import { onMount } from 'svelte';
 
 	let openSections = [0]; // First section open by default
 
-	function toggleSection(index: number) {
+	let toggleSection = (index: number) => {
 		if (openSections.includes(index)) {
 			openSections = openSections.filter((i) => i !== index);
 		} else {
 			openSections = [...openSections, index];
 		}
-	}
+	};
 
-	const accordionData = [
+	type Content = Array<string | Record<string, Array<string>>>;
+	type AccordionData = {
+		title: string;
+		theme: 'cornsilk' | 'dry-sage';
+		leftContent: Content;
+		rightContent: Content;
+	};
+
+	const accordionData: AccordionData[] = [
 		{
 			title: 'Start Early',
-			theme: 'cornsilk' as const,
+			theme: 'cornsilk',
 			leftContent: [
 				'Involve partners from the outset of project discussions.',
 				'Integrate diverse stakeholders during initial planning stages.',
@@ -28,7 +35,7 @@
 		},
 		{
 			title: 'Foster Team-Wide Collaboration',
-			theme: 'dry-sage' as const,
+			theme: 'dry-sage',
 			leftContent: [
 				'Promote constant communication: keep all partners informed and engaged.',
 				'Encourage active dialogue and deliberation, emphasizing active listening, respectful questioning, and collaborative learning (“talking with,” not “talking at”) (Walker & Daniels, 2019).'
@@ -43,7 +50,7 @@
 		},
 		{
 			title: 'Establish clear expectations & common understanding',
-			theme: 'cornsilk' as const,
+			theme: 'cornsilk',
 			leftContent: [
 				'Set clear expectations for roles, responsibilities, communication norms, and time commitments.',
 				'Foster openness to accommodations and adaptations as needed.',
@@ -59,7 +66,7 @@
 		},
 		{
 			title: 'Communication',
-			theme: 'dry-sage' as const,
+			theme: 'dry-sage',
 			leftContent: [
 				'Designate a clear point of contact for streamlined communication.',
 				{
@@ -97,7 +104,7 @@
 		},
 		{
 			title: 'Demonstrate Impact & Follow Through',
-			theme: 'cornsilk' as const,
+			theme: 'cornsilk',
 			leftContent: [
 				'Report the impact of partner contributions clearly.',
 				'Show how partner insights have been integrated and how they shaped outcomes.',
@@ -112,7 +119,7 @@
 		},
 		{
 			title: 'Ensure Adequate Resources',
-			theme: 'dry-sage' as const,
+			theme: 'dry-sage',
 			leftContent: [
 				'Allocate sufficient time, funding, and personnel.',
 				{
@@ -133,7 +140,7 @@
 		},
 		{
 			title: 'Promote Equitable Decision-Making',
-			theme: 'cornsilk' as const,
+			theme: 'cornsilk',
 			leftContent: [
 				'Address power imbalances by giving partners a governing voice.',
 				'Clearly define partners’ roles in decision-making(Walker & Daniels, 2019).',
@@ -148,7 +155,7 @@
 		},
 		{
 			title: 'Ensure Flexibility',
-			theme: 'dry-sage' as const,
+			theme: 'dry-sage',
 			leftContent: [
 				'Accommodate flexible meeting times and formats.',
 				{
@@ -165,7 +172,7 @@
 		},
 		{
 			title: 'Determine a Clear Endpoint',
-			theme: 'cornsilk' as const,
+			theme: 'cornsilk',
 			leftContent: [
 				'Establish a logical, achievable endpoint that defines success (Newcomb et al., 2021, p. 137).',
 				'Set measurable milestones to track progress (Newcomb et al., 2021, p. 137).',
@@ -197,21 +204,16 @@
 		</div>
 	</section>
 
-	<section class="container">
-		<div class="space-y-8">
-			<!-- Full-width Accordion -->
-			<div class="w-full space-y-4">
-				{#each accordionData as item, index}
-					<AccordionItem
-						title={item.title}
-						theme={item.theme}
-						open={openSections.includes(index)}
-						onToggle={() => toggleSection(index)}
-						leftContent={item.leftContent}
-						rightContent={item.rightContent}
-					/>
-				{/each}
-			</div>
-		</div>
+	<section class="container space-y-4">
+		{#each accordionData as item, index}
+			<AccordionItem
+				title={item.title}
+				theme={item.theme}
+				open={openSections.includes(index)}
+				onToggle={() => toggleSection(index)}
+				leftContent={item.leftContent}
+				rightContent={item.rightContent}
+			/>
+		{/each}
 	</section>
 </div>

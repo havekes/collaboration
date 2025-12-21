@@ -21,18 +21,7 @@
 	--color-dry-sage-900: #324027;
 	--color-dry-sage-950: #182211;
 
-	--color-beige-50: #f9faf7;
-	--color-beige-100: #f5f6ef;
-	--color-beige-200: #f0f2e2;
-	--color-beige-300: #e9edce;
-	--color-beige-400: #dce6bf;
-	--color-beige-500: #cfdfb2;
-	--color-beige-600: #b9c79f;
-	--color-beige-700: #a3b08e;
-	--color-beige-800: #8e9a7a;
-	--color-beige-900: #788668;
-
-	--color-cornsilk-50: #fefdf9;
+	/*--color-cornsilk-50: #fefdf9;
 	--color-cornsilk-100: #fcfbf2;
 	--color-cornsilk-200: #f8f7e6;
 	--color-cornsilk-300: #f4f2d1;
@@ -41,20 +30,21 @@
 	--color-cornsilk-600: #d4d19f;
 	--color-cornsilk-700: #c1bf8e;
 	--color-cornsilk-800: #afae7d;
-	--color-cornsilk-900: #9c9b6d;
+	--color-cornsilk-900: #9c9b6d;*/
 
-	--color-papaya-whip-50: #fcfaf8;
-	--color-papaya-whip-100: #faf8f1;
-	--color-papaya-whip-200: #f5f3e3;
-	--color-papaya-whip-300: #efedd0;
-	--color-papaya-whip-400: #e8e4c2;
-	--color-papaya-whip-500: #e0dbb5;
-	--color-papaya-whip-600: #cecba2;
-	--color-papaya-whip-700: #bcba90;
-	--color-papaya-whip-800: #aba97f;
-	--color-papaya-whip-900: #999870;
+	--color-cornsilk-50: #faf9f0;
+	--color-cornsilk-100: #f1efd4;
+	--color-cornsilk-200: #e7e3b3;
+	--color-cornsilk-300: #d4ca75;
+	--color-cornsilk-400: #c9b756;
+	--color-cornsilk-500: #bfa041;
+	--color-cornsilk-600: #a88237;
+	--color-cornsilk-700: #8d6330;
+	--color-cornsilk-800: #74502c;
+	--color-cornsilk-900: #604327;
+	--color-cornsilk-950: #362312;
 
-	--color-light-bronze-50: #f8f5f2;
+	/*--color-light-bronze-50: #f8f5f2;
 	--color-light-bronze-100: #f3ede6;
 	--color-light-bronze-200: #ede1d2;
 	--color-light-bronze-300: #e6d5c2;
@@ -63,5 +53,17 @@
 	--color-light-bronze-600: #c1ab8f;
 	--color-light-bronze-700: #ad9c7a;
 	--color-light-bronze-800: #998d67;
-	--color-light-bronze-900: #867e57;
+	--color-light-bronze-900: #867e57;*/
+	
+	--color-light-bronze-50: #f9f5f3;
+    --color-light-bronze-100: #f2eae2;
+    --color-light-bronze-200: #e4d2c4;
+    --color-light-bronze-300: #d5baa6;
+    --color-light-bronze-400: #bf9278;
+    --color-light-bronze-500: #b1795e;
+    --color-light-bronze-600: #a46752;
+    --color-light-bronze-700: #895345;
+    --color-light-bronze-800: #6f453d;
+    --color-light-bronze-900: #5b3a33;
+    --color-light-bronze-950: #301d1a;
 }
