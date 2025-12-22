@@ -78,7 +78,7 @@
 					<div class="flex flex-col gap-4">
 						<Step number={1} text="Start Early" />
 						<Step number={2} text="Foster Team-Wide Collaboration" />
-						<Step number={3} text="Establish expectations & common understanding" />
+						<Step number={3} text="Establish Clear Expectations & Common Understanding" />
 						<Step number={4} text="Enhance Communication" />
 						<Step number={5} text="Demonstrate Impact & Follow Through" />
 					</div>

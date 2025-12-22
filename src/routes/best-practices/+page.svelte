@@ -14,6 +14,7 @@
 	type Content = Array<string | Record<string, Array<string>>>;
 	type AccordionData = {
 		title: string;
+		id?: string;
 		theme: 'cornsilk' | 'dry-sage';
 		leftContent: Content;
 		rightContent: Content;
@@ -66,6 +67,7 @@
 		},
 		{
 			title: 'Enhance Communication',
+			id: 'communication',
 			theme: 'dry-sage',
 			leftContent: [
 				'Designate a clear point of contact for streamlined communication.',
@@ -208,6 +210,7 @@
 		{#each accordionData as item, index}
 			<AccordionItem
 				title={item.title}
+				id={item.id}
 				theme={item.theme}
 				open={openSections.includes(index)}
 				onToggle={() => toggleSection(index)}

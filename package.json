@@ -30,6 +30,7 @@
 	},
 	"dependencies": {
 		"@fortawesome/free-solid-svg-icons": "^7.1.0",
-		"@fortawesome/svelte-fontawesome": "^0.2.4"
+		"@fortawesome/svelte-fontawesome": "^0.2.4",
+		"slugify": "^1.6.6"
 	}
 }

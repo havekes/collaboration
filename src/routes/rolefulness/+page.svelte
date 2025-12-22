@@ -5,11 +5,11 @@
 </script>
 
 <div class="my-12 flex flex-col items-center space-y-12">
-	<section class="container px-8">
+	<!-- <section class="container px-8">
 		<h1 class="text-4xl font-bold text-gray-800 text-shadow-cornsilk-200 text-shadow-xs">
 			Rolefulness
 		</h1>
-	</section>
+	</section> -->
 
 	<section class="container grid grid-cols-2">
 		<div class="flex items-center">

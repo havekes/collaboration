@@ -1,4 +1,5 @@
 <script>
+	import Link from '$lib/components/Link.svelte';
 	import List from '$lib/components/List.svelte';
 	import ListBlock from '$lib/components/ListBlock.svelte';
 	import ListItem from '$lib/components/ListItem.svelte';
@@ -17,43 +18,57 @@
 		<div class="grid grid-cols-2 gap-8">
 			<ListBlock title="Facilitating Factors" theme="cornsilk">
 				<List title="Shared vision, goals and/or mission">
-					<ListItem>Provides a unified direction for all partners.</ListItem>
-					<ListItem>Ensures alignment and collective purpose in collaborative efforts.</ListItem>
-					<ListItem>
-						<strong><a href="/collaborative-alignment">See: 4-P Foundation</a></strong>
+					<ListItem theme="cornsilk">Provides a unified direction for all partners.</ListItem>
+					<ListItem theme="cornsilk">
+						Ensures alignment and collective purpose in collaborative efforts.
+					</ListItem>
+					<ListItem theme="cornsilk">
+						<strong>
+							<Link theme="cornsilk" href="/collaborative-alignment">See: 4-P Foundation</Link>
+						</strong>
 					</ListItem>
 				</List>
 				<List title="Trust between partners">
-					<ListItem>Foundational for equitable collaboration.</ListItem>
-					<ListItem>
+					<ListItem theme="cornsilk">Foundational for equitable collaboration.</ListItem>
+					<ListItem theme="cornsilk">
 						Trust enables open communication, shared decision-making, and sustained engagement
 					</ListItem>
-					<ListItem>
-						<strong><a href="/trust">Learn more linking to Building Trust page</a></strong>
+					<ListItem theme="cornsilk">
+						<strong>
+							<Link theme="cornsilk" href="/trust-building">See: Building Trust</Link>
+						</strong>
 					</ListItem>
 				</List>
 				<List title="Respect among partners">
-					<ListItem>Recognizes and values diverse contributions and perspectives.</ListItem>
-					<ListItem>
+					<ListItem theme="cornsilk">
+						Recognizes and values diverse contributions and perspectives.
+					</ListItem>
+					<ListItem theme="cornsilk">
 						Requires careful selection of participants to ensure inclusivity and equity (Newcomb et
 						al., 2021, p. 136).
 					</ListItem>
 				</List>
 				<List title="Mutual benefit for all partners">
-					<ListItem>
+					<ListItem theme="cornsilk">
 						All partners should derive tangible or intangible value from the collaboration.
 					</ListItem>
-					<ListItem>
+					<ListItem theme="cornsilk">
 						Requires equitable distribution of benefits and shared ownership of outcomes.
 					</ListItem>
 				</List>
 				<List title="Good relationship between partners">
-					<ListItem>Characterized by genuineness, trust, and respect.</ListItem>
-					<ListItem>Requires dedicated time and ongoing engagement to develop and sustain</ListItem>
+					<ListItem theme="cornsilk">Characterized by genuineness, trust, and respect.</ListItem>
+					<ListItem theme="cornsilk">
+						Requires dedicated time and ongoing engagement to develop and sustain
+					</ListItem>
 				</List>
 				<List title="Effective conflict resolution">
-					<ListItem>Proactive strategies for managing disagreements are essential.</ListItem>
-					<ListItem>Preserves partnership integrity and fosters constructive dialogue.</ListItem>
+					<ListItem theme="cornsilk">
+						Proactive strategies for managing disagreements are essential.
+					</ListItem>
+					<ListItem theme="cornsilk">
+						Preserves partnership integrity and fosters constructive dialogue.
+					</ListItem>
 				</List>
 			</ListBlock>
 
@@ -67,9 +82,9 @@
 					</ListItem>
 				</List>
 				<List title="Inconsistent partner participation/membership">
-					<ListItem
-						>Can be caused by competing interests, priorities, or organizational demands.</ListItem
-					>
+					<ListItem>
+						Can be caused by competing interests, priorities, or organizational demands.
+					</ListItem>
 					<ListItem>Can weaken collaboration and erode trust over time.</ListItem>
 				</List>
 				<List title="Lack of shared vision, goals, and/or mission">
@@ -77,9 +92,9 @@
 					<ListItem>Regularly revisit and reaffirm shared mission and objectives.</ListItem>
 				</List>
 				<List title="Lack of mutual benefits">
-					<ListItem
-						>Partnership sustainability declines when benefits are perceived as unequal.</ListItem
-					>
+					<ListItem>
+						Partnership sustainability declines when benefits are perceived as unequal.
+					</ListItem>
 				</List>
 			</ListBlock>
 		</div>
@@ -91,51 +106,60 @@
 		<div class="grid grid-cols-2 gap-8">
 			<ListBlock title="Facilitating Factors" theme="cornsilk">
 				<List title="Positive community impact">
-					<ListItem>Shared decision-making power with communities</ListItem>
-					<ListItem>Communities empowered to lead or co-lead initiatives</ListItem>
-					<ListItem>
+					<ListItem theme="cornsilk">Shared decision-making power with communities</ListItem>
+					<ListItem theme="cornsilk">Communities empowered to lead or co-lead initiatives</ListItem>
+					<ListItem theme="cornsilk">
 						Enhanced motivation for collaboration due to visible, meaningful outcomes (Bustos et
 						al., 2024, p. 8)
 					</ListItem>
 				</List>
 				<List title="Bringing together diverse stakeholders">
-					<ListItem>
+					<ListItem theme="cornsilk">
 						Intentional inclusion of varied actors (e.g., community members, NGOs, academics,
 						policymakers)
 					</ListItem>
-					<ListItem
-						>Valuing diverse perspectives to enrich project design and implementation</ListItem
-					>
+					<ListItem theme="cornsilk">
+						Valuing diverse perspectives to enrich project design and implementation
+					</ListItem>
 				</List>
 				<List title="High-quality leadership">
-					<ListItem
-						>Decentralized leadership models that distribute power and responsibilities</ListItem
-					>
-					<ListItem>Emphasis on shared leadership to leverage diverse skills and expertise</ListItem
-					>
-					<ListItem>Leaders who listen first and prioritize community input</ListItem>
-					<ListItem
-						>Trusted individuals with strong reputations, fostering credibility and trust</ListItem
-					>
+					<ListItem theme="cornsilk">
+						Decentralized leadership models that distribute power and responsibilities
+					</ListItem>
+					<ListItem theme="cornsilk">
+						Emphasis on shared leadership to leverage diverse skills and expertise
+					</ListItem>
+					<ListItem theme="cornsilk">
+						Leaders who listen first and prioritize community input
+					</ListItem>
+					<ListItem theme="cornsilk">
+						Trusted individuals with strong reputations, fostering credibility and trust
+					</ListItem>
 				</List>
 				<List title="Well-structured meeting">
-					<ListItem>Clear agendas, defined objectives, and inclusive participation</ListItem>
-					<ListItem>Timely follow-ups and documentation</ListItem>
-					<ListItem>Safe spaces for open dialogue and decision-making</ListItem>
+					<ListItem theme="cornsilk">
+						Clear agendas, defined objectives, and inclusive participation
+					</ListItem>
+					<ListItem theme="cornsilk">Timely follow-ups and documentation</ListItem>
+					<ListItem theme="cornsilk">Safe spaces for open dialogue and decision-making</ListItem>
 				</List>
 				<List title="Careful initial selection of partners">
-					<ListItem>Strategic alignment of mission, values, and capacity</ListItem>
-					<ListItem>
+					<ListItem theme="cornsilk">Strategic alignment of mission, values, and capacity</ListItem>
+					<ListItem theme="cornsilk">
 						Assessment of potential partners' reliability, expertise, and commitment to equity
 					</ListItem>
 				</List>
 				<List title="Clearly defined roles and responsibilities">
-					<ListItem>Transparent delineation of tasks, expectations, and accountability</ListItem>
-					<ListItem>Reduces overlap and confusion; enhances efficiency and trust</ListItem>
-					<ListItem>
-						<strong
-							><a href="/rolefulness">Learn more linking to Building Rolefulness page</a></strong
-						>
+					<ListItem theme="cornsilk">
+						Transparent delineation of tasks, expectations, and accountability
+					</ListItem>
+					<ListItem theme="cornsilk">
+						Reduces overlap and confusion; enhances efficiency and trust
+					</ListItem>
+					<ListItem theme="cornsilk">
+						<strong>
+							<Link theme="cornsilk" href="/rolefulness">See: Rolefulness</Link>
+						</strong>
 					</ListItem>
 				</List>
 			</ListBlock>
@@ -149,9 +173,9 @@
 				</List>
 				<List title="Unclear roles and responsibilities">
 					<ListItem>
-						<strong
-							><a href="/rolefulness">Learn more linking to Building Rolefulness page</a></strong
-						>
+						<strong>
+							<Link theme="dry-sage" href="/rolefulness">See: Rolefulness</Link>
+						</strong>
 					</ListItem>
 				</List>
 				<List title="Differing expectations of partners">
@@ -177,33 +201,48 @@
 		<div class="grid grid-cols-2 gap-8">
 			<ListBlock title="Facilitating Factors" theme="cornsilk">
 				<List title="Exchanging information and knowledge">
-					<ListItem>Sharing insights, data, and expertise across partners</ListItem>
-					<ListItem>Promoting mutual learning and informed decision-making</ListItem>
+					<ListItem theme="cornsilk">Sharing insights, data, and expertise across partners</ListItem
+					>
+					<ListItem theme="cornsilk">
+						Promoting mutual learning and informed decision-making
+					</ListItem>
 				</List>
 				<List title="Sharing resources">
-					<ListItem>Ensuring equitable access to support collaboration goals</ListItem>
+					<ListItem theme="cornsilk">
+						Ensuring equitable access to support collaboration goals
+					</ListItem>
 				</List>
 				<List title="Effective and frequent communication">
-					<ListItem>Clearly defining roles, expectations, and priorities upfront</ListItem>
-					<ListItem>Maintaining transparency and alignment with shared mission</ListItem>
-					<ListItem>Building trust through bidirectional dialogue</ListItem>
-					<ListItem>Supporting reconciliation-oriented partnership development</ListItem>
-					<ListItem
-						><strong><a href="/best-practices#communication">Learn more</a></strong></ListItem
+					<ListItem theme="cornsilk"
+						>Clearly defining roles, expectations, and priorities upfront</ListItem
 					>
+					<ListItem theme="cornsilk"
+						>Maintaining transparency and alignment with shared mission</ListItem
+					>
+					<ListItem theme="cornsilk">Building trust through bidirectional dialogue</ListItem>
+					<ListItem theme="cornsilk"
+						>Supporting reconciliation-oriented partnership development</ListItem
+					>
+					<ListItem theme="cornsilk">
+						<strong>
+							<Link theme="cornsilk" href="/best-practices#communication">See: Best Practices</Link>
+						</strong>
+					</ListItem>
 				</List>
 				<List title="Informal relationship created">
-					<ListItem
-						>Developing personal rapport and shared understanding beyond formal agreements</ListItem
-					>
+					<ListItem theme="cornsilk">
+						Developing personal rapport and shared understanding beyond formal agreements
+					</ListItem>
 				</List>
 			</ListBlock>
 			<ListBlock title="Hindering Factors" theme="dry-sage">
 				<List title="Poor communication between partners">
 					<ListItem>Create a Road Map to align goals and timelines.</ListItem>
-					<ListItem
-						><strong><a href="/best-practices#communication">Learn more</a></strong></ListItem
-					>
+					<ListItem>
+						<strong>
+							<Link theme="dry-sage" href="/best-practices#communication">See: Best Practices</Link>
+						</strong>
+					</ListItem>
 				</List>
 				<List title="Lack of a common knowledge or shared terms between partners">
 					<ListItem>Risk of misrepresentation or inaccurate portrayal of community needs</ListItem>

@@ -1,11 +1,14 @@
 <script lang="ts">
+	import slugify from 'slugify';
 	import { slide } from 'svelte/transition';
 	import AccordionContent from './AccordionContent.svelte';
+	import { page } from '$app/state';
 
 	type Content = Array<string | Record<string, Array<string>>>;
 	type Props = {
 		theme: 'cornsilk' | 'dry-sage';
 		title: string;
+		id?: string;
 		open: boolean;
 		onToggle: () => void;
 		leftTitle?: string;
@@ -19,6 +22,7 @@
 	let {
 		theme,
 		title,
+		id,
 		open,
 		onToggle,
 		leftTitle,
@@ -38,12 +42,17 @@
 	let subTitleClasses = $derived(theme === 'cornsilk' ? 'text-cornsilk-800' : 'text-dry-sage-800');
 	let markerClasses = $derived(theme === 'cornsilk' ? 'text-cornsilk-500' : 'text-dry-sage-500');
 	let gridClasses = $derived(middleContent ? 'grid-cols-3' : 'grid-cols-2');
+
+	let computedId = $derived(id ?? slugify(title));
+	let currentAnchor = $derived(page.url.hash);
+	let computedOpen = $derived(open ? true : currentAnchor.slice(1) == computedId);
 </script>
 
 <div
 	class="scale-95 overflow-hidden rounded-2xl border shadow-sm transition-all duration-300 hover:scale-100 hover:shadow-md {containerClasses}"
 	class:scale-100={open}
 >
+	<div id={computedId} class="relative -top-68"></div>
 	<button
 		class="flex w-full cursor-pointer items-center justify-between px-8 py-6 text-left"
 		onclick={onToggle}
@@ -60,7 +69,7 @@
 		</svg>
 	</button>
 
-	{#if open}
+	{#if computedOpen}
 		<div class="px-8 pb-8" transition:slide|local={{ duration: 400 }}>
 			<div class="grid {gridClasses} grid-cols-2 gap-8">
 				<div class="space-y-4">
