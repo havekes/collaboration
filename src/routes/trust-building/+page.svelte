@@ -1,7 +1,8 @@
 <script>
+	import picture2 from '$lib/assets/images/Picture2.png';
 	import Card from '$lib/components/Card.svelte';
+	import CardTitle from '$lib/components/CardTitle.svelte';
 	import List from '$lib/components/List.svelte';
-	import ListBlock from '$lib/components/ListBlock.svelte';
 	import ListItem from '$lib/components/ListItem.svelte';
 	import { faArrowsLeftRight } from '@fortawesome/free-solid-svg-icons';
 	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
@@ -11,16 +12,10 @@
 	<title>Trust Building</title>
 </svelte:head>
 
-<div class="my-12 flex flex-col items-center space-y-12">
-	<section class="container px-8">
-		<h1 class="text-4xl font-bold text-gray-800 text-shadow-cornsilk-200 text-shadow-xs">
-			Trust Building
-		</h1>
-	</section>
-
-	<section class="container flex items-start justify-center gap-20">
-		<Card theme="dry-sage" class="w-120 min-w-120">
-			<h2 class="text-xl font-bold text-dry-sage-700">Trust Dimensions/Content Areas</h2>
+<div class="flex flex-col items-center">
+	<section class="container mt-8 flex items-start justify-center gap-20">
+		<Card theme="dry-sage" class="w-1/2 min-w-120">
+			<CardTitle theme="dry-sage">Trust Dimensions/Content Areas</CardTitle>
 			<List>
 				<ListItem>
 					<strong>Honesty<sup>*</sup>:</strong> Integrity and openness in a relationship
@@ -55,11 +50,9 @@
 			</p>
 		</Card>
 
-		<div class="space-y-20">
-			<Card theme="cornsilk" class="w-120">
-				<h2 class="text-xl font-bold text-cornsilk-900">
-					Characteristics of Trustworthy Researchers
-				</h2>
+		<div class="w-1/2 space-y-20">
+			<Card theme="cornsilk" class="w-full">
+				<CardTitle theme="cornsilk">Characteristics of Trustworthy Researchers</CardTitle>
 				<List>
 					<ListItem theme="cornsilk"><strong>Accessible:</strong> easily reached</ListItem>
 					<ListItem theme="cornsilk">
@@ -79,10 +72,8 @@
 				</List>
 			</Card>
 
-			<Card theme="light-bronze" class="w-120">
-				<h2 class="text-xl font-bold text-light-bronze-900">
-					Strategies to Enhance and Engender Trust
-				</h2>
+			<Card theme="light-bronze" class="w-full">
+				<CardTitle theme="light-bronze">Strategies to Enhance and Engender Trust</CardTitle>
 				<List>
 					<ListItem theme="light-bronze">Balance power dynamics</ListItem>
 					<ListItem theme="light-bronze">Be transparent about goals, motivations</ListItem>
@@ -101,11 +92,40 @@
 			</Card>
 		</div>
 
-		<div class="absolute top-175 rotate-45 text-2xl text-gray-700">
+		<div class="absolute top-185 rotate-45 text-2xl text-gray-500">
 			<FontAwesomeIcon icon={faArrowsLeftRight} />
 		</div>
-		<div class="absolute top-135 ml-135 rotate-90 text-2xl text-gray-700">
+		<div class="absolute top-142 ml-135 rotate-90 text-2xl text-gray-500">
 			<FontAwesomeIcon icon={faArrowsLeftRight} />
 		</div>
+	</section>
+
+	<section class="container m-auto my-12">
+		<div class="grid grid-cols-2 gap-20 rounded-lg bg-cornsilk-100">
+			<div class="p-8">
+				<List title="Building Trust must consider:">
+					<ListItem>Variability in dimensions of trust</ListItem>
+					<ListItem>Characteristics of trustworthy researchers</ListItem>
+				</List>
+			</div>
+			<div class="p-8">
+				<List title="Level of trust may be shaped by:">
+					<ListItem>Educational attainment</ListItem>
+					<ListItem>Cultural beliefs</ListItem>
+					<ListItem>Personal and community experiences with research</ListItem>
+				</List>
+			</div>
+		</div>
+	</section>
+
+	<section class="container flex gap-8">
+		<div
+			class="flex h-full w-2/3 items-center justify-center rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
+		>
+			<img src={picture2} alt="" class="h-auto w-full rounded-xl" />
+		</div>
+		<Card theme="dry-sage">
+			<CardTitle theme="dry-sage">Trust in Community-based participatory research</CardTitle>
+		</Card>
 	</section>
 </div>

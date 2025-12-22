@@ -2,20 +2,20 @@
 	import List from '$lib/components/List.svelte';
 	import ListBlock from '$lib/components/ListBlock.svelte';
 	import ListItem from '$lib/components/ListItem.svelte';
+	import PageTitle from '$lib/components/PageTitle.svelte';
+	import StickyTitle from '$lib/components/StickyTitle.svelte';
 </script>
 
 <svelte:head>
 	<title>Facilitating & Hindering factors to the Success of Partnership</title>
 </svelte:head>
 
-<div class="my-12 flex flex-col items-center space-y-12">
-	<section class="container px-8">
-		<h1 class="text-4xl font-bold text-gray-800 text-shadow-cornsilk-200 text-shadow-xs">
-			Facilitating & Hindering factors to the Success of Partnership
-		</h1>
-	</section>
+<div class="flex flex-col items-center">
+	<!-- <PageTitle>Facilitating & Hindering factors to the Success of Partnership</PageTitle> -->
 
-	<section class="container">
+	<StickyTitle>Interpersonal Qualities</StickyTitle>
+
+	<section class="container mb-8">
 		<div class="grid grid-cols-2 gap-8">
 			<ListBlock title="Facilitating Factors" theme="cornsilk">
 				<List title="Shared vision, goals and/or mission">
@@ -87,7 +87,9 @@
 		</div>
 	</section>
 
-	<section class="container">
+	<StickyTitle>Operational Proceses</StickyTitle>
+
+	<section class="container mb-8">
 		<div class="grid grid-cols-2 gap-8">
 			<ListBlock title="Facilitating Factors" theme="cornsilk">
 				<List title="Positive community impact">
@@ -170,6 +172,8 @@
 			</ListBlock>
 		</div>
 	</section>
+
+	<StickyTitle>Network Processes</StickyTitle>
 
 	<section class="container">
 		<div class="grid grid-cols-2 gap-8">

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import Card from './Card.svelte';
+	import CardTitle from './CardTitle.svelte';
 
 	type Props = {
 		theme: 'cornsilk' | 'dry-sage';
@@ -12,7 +13,7 @@
 </script>
 
 <Card {theme}>
-	<h2 class="p-4 text-center text-lg font-semibold">{title}</h2>
+	<CardTitle {theme}>{title}</CardTitle>
 	<div class="space-y-4">
 		{@render children()}
 	</div>

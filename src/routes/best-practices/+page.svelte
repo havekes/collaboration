@@ -191,8 +191,8 @@
 	<title>Best Practices - Collaboration</title>
 </svelte:head>
 
-<div class="my-12 flex flex-col items-center space-y-12">
-	<section class="container px-8">
+<div class="flex flex-col items-center space-y-12 pt-8">
+	<!-- <section class="container px-8">
 		<div class="space-y-6">
 			<h1 class="text-4xl font-bold text-gray-800 text-shadow-cornsilk-200 text-shadow-xs">
 				Best Practices for Effective Collaboration
@@ -202,7 +202,7 @@
 				(EXAMPLE)
 			</p>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="container space-y-4">
 		{#each accordionData as item, index}

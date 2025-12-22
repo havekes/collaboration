@@ -19,14 +19,16 @@
 	import Card from '$lib/components/Card.svelte';
 </script>
 
-<div class="my-12 flex flex-col items-center space-y-16">
-	<section class="container rounded-2xl bg-cornsilk-50 p-8">
+<div class="flex flex-col items-center space-y-16">
+	<section class="container rounded-2xl p-8">
 		<div class="flex items-center gap-8 text-left">
-			<div class="flex h-full w-2/3 items-center justify-center rounded-2xl p-6">
+			<div
+				class="flex h-full w-2/3 items-center justify-center rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
+			>
 				<img
 					src={picture1}
 					alt="Key factors to the success of partnerships"
-					class="h-auto w-full rounded-xl"
+					class="h-auto w-full"
 				/>
 			</div>
 			<div class="flex-1 space-y-6">
@@ -58,13 +60,15 @@
 		<div class="flex items-center gap-12 lg:flex-row">
 			<div class="w-[calc(100%/3-3.25rem)] space-y-6">
 				<h2
-					class="text-dry-sage-000 text-left text-2xl leading-tight font-bold text-shadow-dry-sage-200 text-shadow-xs"
+					class="text-left text-2xl leading-tight font-bold text-dry-sage-900 text-shadow-dry-sage-200 text-shadow-xs"
 				>
 					Best practices for effective partnership
 				</h2>
-				<div class="space-y-6 text-lg">
-					<RoundedIcon icon={faHandsHolding}>How to foster it?</RoundedIcon>
-					<RoundedIcon icon={faTriangleExclamation}>Why is it important?</RoundedIcon>
+				<div class="space-y-6">
+					<div class="space-y-6 text-lg">
+						<RoundedIcon icon={faHandsHolding}>How to foster it?</RoundedIcon>
+						<RoundedIcon icon={faTriangleExclamation}>Why is it important?</RoundedIcon>
+					</div>
 					<HighlightLink href="/best-practices" text="View best practices" />
 				</div>
 			</div>
@@ -90,7 +94,7 @@
 		</div>
 	</section>
 
-	<section class="container rounded-2xl bg-cornsilk-50 p-8">
+	<section class="container p-8">
 		<div class="flex items-center gap-12 lg:flex-row">
 			<div class="w-[calc(100%/3-3.25rem)] space-y-6">
 				<h2
@@ -98,6 +102,7 @@
 				>
 					Core Competencies for Equitable Partnership
 				</h2>
+				<HighlightLink href="/best-practices" text="View core competencies" color="cornsilk" />
 			</div>
 			<Card theme="cornsilk" class="flex-1">
 				<RoundedIcon icon={faScaleBalanced} color="cornsilk" colorWeight="300">
@@ -128,7 +133,7 @@
 		</div>
 	</section>
 
-	<section class="container">
+	<section class="container px-8">
 		<div class="space-y-8">
 			<div class="grid grid-cols-3 gap-8">
 				<MainCard icon={faHandshake} title="Trust" href="/trust-building" link="See trust building">
@@ -151,7 +156,7 @@
 		</div>
 	</section>
 
-	<section class="container">
+	<section class="container px-8">
 		<div class="flex items-center gap-12 lg:flex-row">
 			<div class="w-[calc(100%/3-2.25rem)] space-y-6">
 				<h2
