@@ -1,5 +1,6 @@
 <script>
 	import picture2 from '$lib/assets/images/Picture2.png';
+	import Blockquote from '$lib/components/Blockquote.svelte';
 	import Card from '$lib/components/Card.svelte';
 	import CardTitle from '$lib/components/CardTitle.svelte';
 	import List from '$lib/components/List.svelte';
@@ -126,24 +127,20 @@
 		</div>
 		<Card theme="cornsilk" class="w-3/7">
 			<CardTitle theme="cornsilk">Trust in Community-based participatory research</CardTitle>
-			<blockquote
-				class="rounded-lg border border-cornsilk-200 bg-cornsilk-50/40 p-4 text-gray-800 italic shadow-cornsilk-100"
-			>
+			<Blockquote>
 				<strong>Voluntary Trust:</strong> Emerges from close interpersonal relationships; defined as “a
 				consensual absence of calculation, where partners voluntarily forego calculating outcomes”.
-			</blockquote>
+			</Blockquote>
 			<div class="space-y-2 px-4">
 				<List title="What is it built on?">
 					<ListItem>Commonality & Reciprocity</ListItem>
 				</List>
 				<List title="How to build trust?"><span></span></List>
 			</div>
-			<blockquote
-				class="rounded-lg border border-cornsilk-200 bg-cornsilk-50/40 p-4 text-gray-800 italic shadow-cornsilk-100"
-			>
+			<Blockquote>
 				<strong>Trust by Proxy:</strong> Trust developed in one community relationship extends to other
 				stakeholders, facilitating broader collaboration.
-			</blockquote>
+			</Blockquote>
 		</Card>
 	</section>
 </div>

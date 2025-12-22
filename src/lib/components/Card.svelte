@@ -21,6 +21,8 @@
 	});
 </script>
 
-<div class="space-y-4 rounded-2xl border p-6 shadow-sm {themeClasses} {classes ?? ''}">
+<div
+	class="space-y-4 rounded-2xl border p-6 shadow-sm {themeClasses} {classes ?? ''} flex flex-col"
+>
 	{@render children()}
 </div>

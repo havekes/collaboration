@@ -1,4 +1,5 @@
 <script>
+	import Blockquote from '$lib/components/Blockquote.svelte';
 	import Card from '$lib/components/Card.svelte';
 	import CardTitle from '$lib/components/CardTitle.svelte';
 	import List from '$lib/components/List.svelte';
@@ -9,13 +10,13 @@
 </script>
 
 <div class="my-12 flex flex-col items-center space-y-12">
-	<section class="container px-8">
+	<!-- <section class="container px-8">
 		<h1 class="text-4xl font-bold text-gray-800 text-shadow-cornsilk-200 text-shadow-xs">
 			Collaborative alignment: 4-P Foundation
 		</h1>
-	</section>
+	</section> -->
 
-	<section class="container px-8">
+	<section class="container">
 		<Card theme="dry-sage">
 			<h2 class="text-lg font-bold text-dry-sage-700">
 				When collaboration works, key signs of alignment include:
@@ -29,41 +30,132 @@
 		</Card>
 	</section>
 
-	<section class="container">
-		<div class="grid grid-cols-2 gap-24 px-8">
-			<Card theme="cornsilk" class="justify-self-start">
-				<CardTitle theme="cornsilk">Purpose</CardTitle>
-				<List title="The &quot;Why&quot; That Unites Us: the vision & glue for the team">
-					<ListItem theme="cornsilk">Provides clarity and direction</ListItem>
-					<ListItem theme="cornsilk">
-						Attracts committed individuals who share values and goals
-					</ListItem>
-					<ListItem theme="cornsilk">
-						Serves as a constant reference point for decisions and actions
-					</ListItem>
-					<ListItem theme="cornsilk">
-						All collaborative efforts begin and should return to the purpose
-					</ListItem>
-				</List>
-				<blockquote
-					class="rounded-lg border border-cornsilk-300 p-4 text-gray-800 italic shadow-cornsilk-100"
-				>
-					People invest time when they believe in what’s possible together.
-				</blockquote>
-			</Card>
+	<section class="container text-sm">
+		<div class="grid grid-cols-3 gap-8">
 			<Card theme="cornsilk" class="justify-self-end">
 				<CardTitle theme="cornsilk">People</CardTitle>
+				<List title="The Energy Behind the Vision: if purpose gives vision, people give life">
+					<ListItem theme="cornsilk">Diversity fuels creativity and innovation.</ListItem>
+					<ListItem theme="cornsilk">
+						Shared vision unites, but differences strengthen outcomes.
+					</ListItem>
+					<ListItem theme="cornsilk">
+						Collaboration thrives when individuals bring unique perspectives, skills, and
+						experiences.
+					</ListItem>
+					<ListItem theme="cornsilk">
+						Emotional investment grows when people feel heard and valued .
+					</ListItem>
+				</List>
+				<Blockquote>
+					It’s not monoliths that create change — it’s mosaic teams working together.
+				</Blockquote>
 			</Card>
+			<div>
+				<LongArrow class="m-auto my-10 h-10 w-20 rotate-180 text-cornsilk-800" />
+
+				<Card theme="light-bronze">
+					<List title="Are people aligned with the purpose?">
+						<ListItem theme="light-bronze">Has the purpose been clearly communicated?</ListItem>
+						<ListItem theme="light-bronze">Are any participants ideologically opposed?</ListItem>
+						<ListItem theme="light-bronze">
+							Do any organizations feel threatened by the mission?
+						</ListItem>
+					</List>
+				</Card>
+			</div>
+			<Card theme="cornsilk" class="justify-self-start">
+				<CardTitle theme="cornsilk">Purpose</CardTitle>
+				<div class="flex-1">
+					<List title="The &quot;Why&quot; That Unites Us: the vision & glue for the team">
+						<ListItem theme="cornsilk">Provides clarity and direction</ListItem>
+						<ListItem theme="cornsilk">
+							Attracts committed individuals who share values and goals.
+						</ListItem>
+						<ListItem theme="cornsilk">
+							Serves as a constant reference point for decisions and actions.
+						</ListItem>
+						<ListItem theme="cornsilk">
+							All collaborative efforts begin and should return to the purpose.
+						</ListItem>
+					</List>
+				</div>
+				<Blockquote>People invest time when they believe in what’s possible together.</Blockquote>
+			</Card>
+
+			<div class="flex items-center gap-6">
+				<LongArrow class="m-auto h-10 w-20 shrink-0 rotate-270 text-cornsilk-800" />
+				<Card theme="light-bronze">
+					<List title="Are people aligned with the process?">
+						<ListItem theme="light-bronze">Is there buy-in to the group’s operating rules?</ListItem
+						>
+						<ListItem theme="light-bronze">Are roles and responsibilities clear?</ListItem>
+						<ListItem theme="light-bronze">
+							Has leadership been assigned and empowered effectively?
+						</ListItem>
+					</List>
+				</Card>
+			</div>
+			<div></div>
+			<div class="flex items-center gap-6">
+				<Card theme="light-bronze">
+					<List title="Do results serve the original purpose?">
+						<ListItem theme="light-bronze">
+							Does each product contribute to the long-term vision?
+						</ListItem>
+						<ListItem theme="light-bronze">Are we solving root causes—not just symptoms?</ListItem>
+					</List>
+				</Card>
+				<LongArrow class="m-auto h-10 w-20 shrink-0 rotate-90 text-cornsilk-800" />
+			</div>
+
 			<Card theme="cornsilk" class="justify-self-start">
 				<CardTitle theme="cornsilk">Process</CardTitle>
+				<List title="The &quot;How&quot; We Work Together: process becomes the road map">
+					<ListItem theme="cornsilk">
+						Governance structures guide decision-making and behavior.
+					</ListItem>
+					<ListItem theme="cornsilk">
+						Includes meeting logistics, roles, facilitation, and conflict resolution.
+					</ListItem>
+					<ListItem theme="cornsilk">
+						Prevents chaos by honoring both unity and individuality.
+					</ListItem>
+					<ListItem theme="cornsilk">
+						Ongoing refinement ensures fairness and effectiveness.
+					</ListItem>
+				</List>
+				<Blockquote>
+					“The uniqueness of people provides richness in the diversity of ideas and opinions as they
+					strive together for a shared purpose and vision. That same uniqueness and individuality,
+					however, can provide an environment for disagreement, divisiveness, and chaos.” (Walker et
+					al., 2023, p. 5)
+				</Blockquote>
 			</Card>
+			<div>
+				<LongArrow class="m-auto my-10 h-10 w-20 rotate-180 text-cornsilk-800" />
+
+				<Card theme="light-bronze">
+					<List title="Does the process support real results?">
+						<ListItem theme="light-bronze">Are resources adequate (time, funding, tools)?</ListItem>
+						<ListItem theme="light-bronze">Are deadlines realistic and flexible?</ListItem>
+						<ListItem theme="light-bronze">Is there space for learning and adaptation?</ListItem>
+					</List>
+				</Card>
+			</div>
 			<Card theme="cornsilk" class="justify-self-end">
 				<CardTitle theme="cornsilk">Product</CardTitle>
+				<List title="The Tangible Outcomes That Prove Progress: without results, attention fades">
+					<ListItem theme="cornsilk">Deliverables must be meaningful and measurable .</ListItem>
+					<ListItem theme="cornsilk">
+						Milestones celebrate progress and sustain motivation.
+					</ListItem>
+					<ListItem theme="cornsilk">
+						Outcomes should directly advance the original purpose.
+					</ListItem>
+					<ListItem theme="cornsilk">Regular evaluation ensures relevance and impact.</ListItem>
+				</List>
 			</Card>
 		</div>
-		<LongArrow class="h-10 w-20 text-cornsilk-800" />
-		<LongArrow class="h-10 w-20 text-cornsilk-800" />
-		<LongArrow class="h-10 w-20 text-cornsilk-800" />
-		<LongArrow class="h-10 w-20 text-cornsilk-800" />
 	</section>
 </div>
