@@ -97,7 +97,7 @@
 				</Card>
 			</div>
 			<div>
-				<LongArrow class="rotate my-5 h-10 w-20 rotate-33 text-light-bronze-500" />
+				<LongArrow class="rotate my-5 h-10 w-20 rotate-213 text-light-bronze-500" />
 				<Card theme="light-bronze">
 					<List title="Do people have what it takes to deliver?">
 						<ListItem theme="light-bronze">
@@ -109,7 +109,7 @@
 					</List>
 				</Card>
 				<div class="flex justify-end">
-					<LongArrow class="rotate my-5 h-10 w-20 rotate-33 text-light-bronze-500" />
+					<LongArrow class="rotate my-5 h-10 w-20 rotate-213 text-light-bronze-500" />
 				</div>
 			</div>
 			<div class="flex items-center gap-6">
