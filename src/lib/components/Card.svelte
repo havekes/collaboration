@@ -16,7 +16,7 @@
 			case 'cornsilk':
 				return 'border-cornsilk-200 bg-linear-to-br from-cornsilk-100 to-cornsilk-200 shadow-cornsilk-100';
 			case 'light-bronze':
-				return 'border-light-bronze-200 bg-linear-to-br from-light-bronze-50 to-light-bronze-100 shadow-light-bronze-100';
+				return 'border-light-bronze-200 bg-linear-to-br from-light-bronze-100 to-light-bronze-200 shadow-light-bronze-100';
 		}
 	});
 </script>
