@@ -19,8 +19,8 @@
 	import Card from '$lib/components/Card.svelte';
 </script>
 
-<div class="flex flex-col items-center space-y-16">
-	<section class="container rounded-2xl p-8">
+<div class="my-16 flex flex-col items-center space-y-24">
+	<section class="container rounded-2xl">
 		<div class="flex items-center gap-8 text-left">
 			<div
 				class="flex h-full w-2/3 items-center justify-center rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
@@ -56,7 +56,7 @@
 		</div>
 	</section>
 
-	<section class="container px-8">
+	<section class="container">
 		<div class="flex items-center gap-12 lg:flex-row">
 			<div class="w-[calc(100%/3-3.25rem)] space-y-6">
 				<h2
@@ -94,7 +94,7 @@
 		</div>
 	</section>
 
-	<section class="container p-8">
+	<section class="container">
 		<div class="flex items-center gap-12 lg:flex-row">
 			<div class="w-[calc(100%/3-3.25rem)] space-y-6">
 				<h2
@@ -133,7 +133,7 @@
 		</div>
 	</section>
 
-	<section class="container px-8">
+	<section class="container">
 		<div class="space-y-8">
 			<div class="grid grid-cols-3 gap-8">
 				<MainCard icon={faHandshake} title="Trust" href="/trust-building" link="See trust building">
@@ -156,7 +156,7 @@
 		</div>
 	</section>
 
-	<section class="container px-8">
+	<section class="container">
 		<div class="flex items-center gap-12 lg:flex-row">
 			<div class="w-[calc(100%/3-2.25rem)] space-y-6">
 				<h2
