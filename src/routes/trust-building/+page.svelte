@@ -101,7 +101,7 @@
 	</section>
 
 	<section class="container m-auto my-12">
-		<div class="grid grid-cols-2 gap-20 rounded-lg bg-cornsilk-100">
+		<div class="grid grid-cols-2 gap-20 rounded-lg bg-dry-sage-100">
 			<div class="p-8">
 				<List title="Building trust must consider:">
 					<ListItem>Variability in dimensions of trust</ListItem>
@@ -120,27 +120,29 @@
 
 	<section class="container flex gap-8">
 		<div
-			class="flex h-full w-2/3 items-center justify-center rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
+			class="flex h-full w-4/7 items-center justify-center rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
 		>
 			<img src={picture2} alt="" class="h-auto w-full rounded-xl" />
 		</div>
-		<Card theme="dry-sage">
-			<CardTitle theme="dry-sage">Trust in Community-based participatory research</CardTitle>
+		<Card theme="cornsilk" class="w-3/7">
+			<CardTitle theme="cornsilk">Trust in Community-based participatory research</CardTitle>
 			<blockquote
-				class="rounded-lg border border-dry-sage-300 p-4 text-gray-800 italic shadow-dry-sage-100"
+				class="rounded-lg border border-cornsilk-200 bg-cornsilk-50/40 p-4 text-gray-800 italic shadow-cornsilk-100"
 			>
-				Voluntary Trust: Emerges from close interpersonal relationships; defined as “a consensual
-				absence of calculation, where partners voluntarily forego calculating outcomes”.
+				<strong>Voluntary Trust:</strong> Emerges from close interpersonal relationships; defined as “a
+				consensual absence of calculation, where partners voluntarily forego calculating outcomes”.
 			</blockquote>
-			<List title="What is it built on?">
-				<ListItem>Commonality & Reciprocity</ListItem>
-			</List>
-			<List title="How to build trust?"><span></span></List>
+			<div class="space-y-2 px-4">
+				<List title="What is it built on?">
+					<ListItem>Commonality & Reciprocity</ListItem>
+				</List>
+				<List title="How to build trust?"><span></span></List>
+			</div>
 			<blockquote
-				class="rounded-lg border border-dry-sage-300 p-4 text-gray-800 italic shadow-dry-sage-100"
+				class="rounded-lg border border-cornsilk-200 bg-cornsilk-50/40 p-4 text-gray-800 italic shadow-cornsilk-100"
 			>
-				Trust by Proxy: Trust developed in one community relationship extends to other stakeholders,
-				facilitating broader collaboration.
+				<strong>Trust by Proxy:</strong> Trust developed in one community relationship extends to other
+				stakeholders, facilitating broader collaboration.
 			</blockquote>
 		</Card>
 	</section>
