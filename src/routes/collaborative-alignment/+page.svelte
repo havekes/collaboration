@@ -52,7 +52,7 @@
 				</Blockquote>
 			</Card>
 			<div>
-				<LongArrow class="m-auto my-10 h-10 w-20 rotate-180 text-cornsilk-800" />
+				<LongArrow class="m-auto my-10 h-10 w-20 rotate-180 text-light-bronze-500" />
 
 				<Card theme="light-bronze">
 					<List title="Are people aligned with the purpose?">
@@ -84,7 +84,7 @@
 			</Card>
 
 			<div class="flex items-center gap-6">
-				<LongArrow class="m-auto h-10 w-20 shrink-0 rotate-270 text-cornsilk-800" />
+				<LongArrow class="m-auto h-10 w-20 shrink-0 rotate-270 text-light-bronze-500" />
 				<Card theme="light-bronze">
 					<List title="Are people aligned with the process?">
 						<ListItem theme="light-bronze">Is there buy-in to the group’s operating rules?</ListItem
@@ -97,7 +97,7 @@
 				</Card>
 			</div>
 			<div>
-				<LongArrow class="rotate my-5 h-10 w-20 rotate-33 text-cornsilk-800" />
+				<LongArrow class="rotate my-5 h-10 w-20 rotate-33 text-light-bronze-500" />
 				<Card theme="light-bronze">
 					<List title="Do people have what it takes to deliver?">
 						<ListItem theme="light-bronze">
@@ -109,7 +109,7 @@
 					</List>
 				</Card>
 				<div class="flex justify-end">
-					<LongArrow class="rotate my-5 h-10 w-20 rotate-33 text-cornsilk-800" />
+					<LongArrow class="rotate my-5 h-10 w-20 rotate-33 text-light-bronze-500" />
 				</div>
 			</div>
 			<div class="flex items-center gap-6">
@@ -121,7 +121,7 @@
 						<ListItem theme="light-bronze">Are we solving root causes—not just symptoms?</ListItem>
 					</List>
 				</Card>
-				<LongArrow class="m-auto h-10 w-20 shrink-0 rotate-90 text-cornsilk-800" />
+				<LongArrow class="m-auto h-10 w-20 shrink-0 rotate-90 text-light-bronze-500" />
 			</div>
 
 			<Card theme="cornsilk" class="justify-self-start">
@@ -148,7 +148,7 @@
 				</Blockquote>
 			</Card>
 			<div class="flex flex-col-reverse">
-				<LongArrow class="m-auto my-10 h-10 w-20 rotate-180 text-cornsilk-800" />
+				<LongArrow class="m-auto my-10 h-10 w-20 rotate-180 text-light-bronze-500" />
 				<Card theme="light-bronze">
 					<List title="Does the process support real results?">
 						<ListItem theme="light-bronze">Are resources adequate (time, funding, tools)?</ListItem>
