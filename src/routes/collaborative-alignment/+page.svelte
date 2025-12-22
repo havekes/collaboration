@@ -132,9 +132,8 @@
 					al., 2023, p. 5)
 				</Blockquote>
 			</Card>
-			<div>
+			<div class="flex flex-col-reverse">
 				<LongArrow class="m-auto my-10 h-10 w-20 rotate-180 text-cornsilk-800" />
-
 				<Card theme="light-bronze">
 					<List title="Does the process support real results?">
 						<ListItem theme="light-bronze">Are resources adequate (time, funding, tools)?</ListItem>
