@@ -11,7 +11,13 @@
 	<title>Facilitating & Hindering Factors to the Success of Partnership</title>
 </svelte:head>
 
-<div class="flex flex-col items-center">
+<div class="my-8 flex flex-col items-center">
+	<section class="container mb-8">
+		<h1 class="text-3xl font-bold text-cornsilk-800">
+			Facilitating & Hindering Factors to the Success of Partnership
+		</h1>
+	</section>
+
 	<StickyTitle>Interpersonal Qualities</StickyTitle>
 
 	<section class="container mb-8">

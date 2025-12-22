@@ -13,7 +13,10 @@
 	<title>Trust Building</title>
 </svelte:head>
 
-<div class="my-12 flex flex-col items-center">
+<div class="my-8 flex flex-col items-center">
+	<section class="container mb-8">
+		<h1 class="text-3xl font-bold text-cornsilk-800">Trust Building</h1>
+	</section>
 	<section class="container flex items-start justify-center gap-20">
 		<Card theme="dry-sage" class="w-1/2 min-w-120">
 			<CardTitle theme="dry-sage">Trust Dimensions/Content Areas</CardTitle>

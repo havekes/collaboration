@@ -10,7 +10,6 @@
 		faHandshake,
 		faArrowsRotate,
 		faPersonChalkboard,
-		faClipboardCheck,
 		faArrowRight
 	} from '@fortawesome/free-solid-svg-icons';
 	import RoundedIcon from '$lib/components/RoundedIcon.svelte';
@@ -18,6 +17,10 @@
 	import MainCard from '$lib/components/MainCard.svelte';
 	import Card from '$lib/components/Card.svelte';
 </script>
+
+<svelte:head>
+	<title>Collaboration guide - Comunity-Based Participatory Research</title>
+</svelte:head>
 
 <div class="my-16 flex flex-col items-center space-y-24">
 	<section class="container rounded-2xl">

@@ -205,7 +205,11 @@
 	<title>Core Competencies for Equitable Partnership</title>
 </svelte:head>
 
-<div class="my-12 flex flex-col items-center space-y-12">
+<div class="my-8 flex flex-col items-center space-y-8">
+	<section class="container">
+		<h1 class="text-3xl font-bold text-cornsilk-800">Core Competencies</h1>
+	</section>
+
 	<section class="container space-y-4">
 		{#each accordionData as item, index}
 			<AccordionItem

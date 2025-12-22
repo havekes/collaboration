@@ -5,16 +5,16 @@
 	import List from '$lib/components/List.svelte';
 	import ListItem from '$lib/components/ListItem.svelte';
 	import LongArrow from '$lib/components/LongArrow.svelte';
-	import { faArrowRightLong, faArrowsLeftRight } from '@fortawesome/free-solid-svg-icons';
-	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 </script>
 
-<div class="my-12 flex flex-col items-center space-y-12">
-	<!-- <section class="container px-8">
-		<h1 class="text-4xl font-bold text-gray-800 text-shadow-cornsilk-200 text-shadow-xs">
-			Collaborative alignment: 4-P Foundation
-		</h1>
-	</section> -->
+<svelte:head>
+	<title>Collaborative alignment: 4-P Foundation</title>
+</svelte:head>
+
+<div class="my-8 flex flex-col items-center space-y-8">
+	<section class="container mb-8">
+		<h1 class="text-3xl font-bold text-cornsilk-800">Collaborative alignment: 4-P Foundation</h1>
+	</section>
 
 	<section class="container">
 		<Card theme="dry-sage">

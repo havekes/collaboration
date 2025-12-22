@@ -190,21 +190,13 @@
 </script>
 
 <svelte:head>
-	<title>Best Practices - Collaboration</title>
+	<title>Best Practices</title>
 </svelte:head>
 
-<div class="my-12 flex flex-col items-center space-y-12">
-	<!-- <section class="container px-8">
-		<div class="space-y-6">
-			<h1 class="text-4xl font-bold text-gray-800 text-shadow-cornsilk-200 text-shadow-xs">
-				Best Practices for Effective Collaboration
-			</h1>
-			<p class="text-lg text-gray-700">
-				Proven strategies to foster effective teamwork and achieve outstanding results together.
-				(EXAMPLE)
-			</p>
-		</div>
-	</section> -->
+<div class="my-8 flex flex-col items-center space-y-8">
+	<section class="container">
+		<h1 class="text-3xl font-bold text-cornsilk-800">Best Practices for Effective Collaboration</h1>
+	</section>
 
 	<section class="container space-y-4">
 		{#each accordionData as item, index}
