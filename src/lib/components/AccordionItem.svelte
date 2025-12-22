@@ -1,7 +1,6 @@
 <script lang="ts">
-	import { slide, fade } from 'svelte/transition';
-	import List from './List.svelte';
-	import ListItem from './ListItem.svelte';
+	import { slide } from 'svelte/transition';
+	import AccordionContent from './AccordionContent.svelte';
 
 	type Content = Array<string | Record<string, Array<string>>>;
 	type Props = {
@@ -9,11 +8,26 @@
 		title: string;
 		open: boolean;
 		onToggle: () => void;
-		leftContent?: Content;
-		rightContent?: Content;
+		leftTitle?: string;
+		leftContent: Content;
+		rightTitle: string;
+		rightContent: Content;
+		middleTitle?: string;
+		middleContent?: Content;
 	};
 
-	let { theme, title, open, onToggle, leftContent, rightContent }: Props = $props();
+	let {
+		theme,
+		title,
+		open,
+		onToggle,
+		leftTitle,
+		leftContent,
+		rightTitle,
+		rightContent,
+		middleTitle,
+		middleContent
+	}: Props = $props();
 
 	let containerClasses = $derived(
 		theme === 'cornsilk'
@@ -23,6 +37,7 @@
 	let titleClasses = $derived(theme === 'cornsilk' ? 'text-cornsilk-900' : 'text-dry-sage-900');
 	let subTitleClasses = $derived(theme === 'cornsilk' ? 'text-cornsilk-800' : 'text-dry-sage-800');
 	let markerClasses = $derived(theme === 'cornsilk' ? 'text-cornsilk-500' : 'text-dry-sage-500');
+	let gridClasses = $derived(middleContent ? 'grid-cols-3' : 'grid-cols-2');
 </script>
 
 <div
@@ -44,88 +59,23 @@
 			></path>
 		</svg>
 	</button>
+
 	{#if open}
 		<div class="px-8 pb-8" transition:slide|local={{ duration: 400 }}>
-			<div class="grid grid-cols-2 gap-8">
+			<div class="grid {gridClasses} grid-cols-2 gap-8">
 				<div class="space-y-4">
-					<h3 class="font-semibold {subTitleClasses}">How to foster it?</h3>
-					<ul class="space-y-3 text-gray-700">
-						{#each leftContent as item, index}
-							{#if typeof item === 'object'}
-								{@const subItems = Object.values(item)[0] as Array<string>}
-								<li
-									class="flex items-start"
-									transition:fade|local={{ delay: 150 + index * 75, duration: 300 }}
-								>
-									<svg
-										class="mt-0.5 h-6 w-6 shrink-0 {markerClasses}"
-										fill="currentColor"
-										viewBox="0 0 20 20"
-									>
-										<path
-											fill-rule="evenodd"
-											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-											clip-rule="evenodd"
-										></path>
-									</svg>
-									<div>
-										<p class="ml-3">{Object.keys(item)[0]}:</p>
-										<List>
-											<div class="mt-2 ml-2 text-sm">
-												{#each subItems as subItem}
-													<ListItem {theme}>
-														{subItem}
-													</ListItem>
-												{/each}
-											</div>
-										</List>
-									</div>
-								</li>
-							{:else}
-								<li
-									class="flex items-start"
-									transition:fade|local={{ delay: 150 + index * 75, duration: 300 }}
-								>
-									<svg
-										class="mt-0.5 h-6 w-6 shrink-0 {markerClasses}"
-										fill="currentColor"
-										viewBox="0 0 20 20"
-									>
-										<path
-											fill-rule="evenodd"
-											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-											clip-rule="evenodd"
-										></path>
-									</svg>
-									<span class="ml-3 text-gray-800">{item}</span>
-								</li>
-							{/if}
-						{/each}
-					</ul>
+					<h3 class="font-semibold {subTitleClasses}">{leftTitle}</h3>
+					<AccordionContent {theme} content={leftContent} />
 				</div>
+				{#if middleContent}
+					<div class="space-y-4">
+						<h3 class="font-semibold {subTitleClasses}">{middleTitle}</h3>
+						<AccordionContent {theme} content={middleContent} />
+					</div>
+				{/if}
 				<div class="space-y-4">
-					<h3 class="font-semibold {subTitleClasses}">Why do it?</h3>
-					<ul class="space-y-3">
-						{#each rightContent as item, index}
-							<li
-								class="flex items-start"
-								transition:fade|local={{ delay: 200 + index * 75, duration: 300 }}
-							>
-								<svg
-									class="mt-0.5 h-6 w-6 shrink-0 {markerClasses}"
-									fill="currentColor"
-									viewBox="0 0 20 20"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								<span class="ml-3 text-gray-800">{item}</span>
-							</li>
-						{/each}
-					</ul>
+					<h3 class="font-semibold {subTitleClasses}">{rightTitle}</h3>
+					<AccordionContent {theme} content={rightContent} />
 				</div>
 			</div>
 		</div>

@@ -7,12 +7,10 @@
 </script>
 
 <svelte:head>
-	<title>Facilitating & Hindering factors to the Success of Partnership</title>
+	<title>Facilitating & Hindering Factors to the Success of Partnership</title>
 </svelte:head>
 
 <div class="flex flex-col items-center">
-	<!-- <PageTitle>Facilitating & Hindering factors to the Success of Partnership</PageTitle> -->
-
 	<StickyTitle>Interpersonal Qualities</StickyTitle>
 
 	<section class="container mb-8">

@@ -102,7 +102,7 @@
 				>
 					Core Competencies for Equitable Partnership
 				</h2>
-				<HighlightLink href="/best-practices" text="View core competencies" color="cornsilk" />
+				<HighlightLink href="/competencies" text="View core competencies" color="cornsilk" />
 			</div>
 			<Card theme="cornsilk" class="flex-1">
 				<RoundedIcon icon={faScaleBalanced} color="cornsilk" colorWeight="300">

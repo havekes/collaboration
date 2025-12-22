@@ -22,8 +22,8 @@
 	);
 
 	let menuItems: Array<MenuItemData> = [
-		{ name: 'Facilitators and hindrances', href: '/facilitators-hindrances' },
-		{ name: 'Best practices', href: '/best-practices' },
+		{ name: 'Facilitators & Hindrances', href: '/facilitators-hindrances' },
+		{ name: 'Best Practices', href: '/best-practices' },
 		{ name: 'Competencies', href: '/competencies' },
 		{ name: 'Trust', href: '/trust-building' },
 		{ name: 'Rolefulness', href: '/rolefulness' },

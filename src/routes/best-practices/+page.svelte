@@ -49,7 +49,7 @@
 			]
 		},
 		{
-			title: 'Establish clear expectations & common understanding',
+			title: 'Establish Clear Expectations & Common Understanding',
 			theme: 'cornsilk',
 			leftContent: [
 				'Set clear expectations for roles, responsibilities, communication norms, and time commitments.',
@@ -211,7 +211,9 @@
 				theme={item.theme}
 				open={openSections.includes(index)}
 				onToggle={() => toggleSection(index)}
+				leftTitle="How to foster it?"
 				leftContent={item.leftContent}
+				rightTitle="Why do it?"
 				rightContent={item.rightContent}
 			/>
 		{/each}
