@@ -39,7 +39,7 @@
 	<header class="sticky top-0 z-50 w-full py-8 {scrollClasses} transition-all">
 		<div class="container m-auto flex items-center">
 			<a
-				class="flex flex-col rounded-full text-cornsilk-100 transition-all hover:-mx-8 hover:-my-4 hover:bg-cornsilk-700 hover:px-8 hover:py-4 hover:text-cornsilk-50"
+				class="flex flex-col rounded-full text-cornsilk-100 transition-all hover:-mx-8 hover:-my-4 hover:bg-white/10 hover:px-8 hover:py-4 hover:text-cornsilk-50"
 				href="/"
 			>
 				<span class="text-2xl font-bold">Collaboration guide</span>

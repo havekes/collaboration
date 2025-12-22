@@ -191,7 +191,7 @@
 	<title>Best Practices - Collaboration</title>
 </svelte:head>
 
-<div class="flex flex-col items-center space-y-12 pt-8">
+<div class="my-12 flex flex-col items-center space-y-12">
 	<!-- <section class="container px-8">
 		<div class="space-y-6">
 			<h1 class="text-4xl font-bold text-gray-800 text-shadow-cornsilk-200 text-shadow-xs">

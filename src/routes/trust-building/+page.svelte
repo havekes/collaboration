@@ -12,8 +12,8 @@
 	<title>Trust Building</title>
 </svelte:head>
 
-<div class="flex flex-col items-center">
-	<section class="container mt-8 flex items-start justify-center gap-20">
+<div class="my-12 flex flex-col items-center">
+	<section class="container flex items-start justify-center gap-20">
 		<Card theme="dry-sage" class="w-1/2 min-w-120">
 			<CardTitle theme="dry-sage">Trust Dimensions/Content Areas</CardTitle>
 			<List>
@@ -103,7 +103,7 @@
 	<section class="container m-auto my-12">
 		<div class="grid grid-cols-2 gap-20 rounded-lg bg-cornsilk-100">
 			<div class="p-8">
-				<List title="Building Trust must consider:">
+				<List title="Building trust must consider:">
 					<ListItem>Variability in dimensions of trust</ListItem>
 					<ListItem>Characteristics of trustworthy researchers</ListItem>
 				</List>
@@ -126,6 +126,22 @@
 		</div>
 		<Card theme="dry-sage">
 			<CardTitle theme="dry-sage">Trust in Community-based participatory research</CardTitle>
+			<blockquote
+				class="rounded-lg border border-dry-sage-300 p-4 text-gray-800 italic shadow-dry-sage-100"
+			>
+				Voluntary Trust: Emerges from close interpersonal relationships; defined as “a consensual
+				absence of calculation, where partners voluntarily forego calculating outcomes”.
+			</blockquote>
+			<List title="What is it built on?">
+				<ListItem>Commonality & Reciprocity</ListItem>
+			</List>
+			<List title="How to build trust?"><span></span></List>
+			<blockquote
+				class="rounded-lg border border-dry-sage-300 p-4 text-gray-800 italic shadow-dry-sage-100"
+			>
+				Trust by Proxy: Trust developed in one community relationship extends to other stakeholders,
+				facilitating broader collaboration.
+			</blockquote>
 		</Card>
 	</section>
 </div>
