@@ -23,7 +23,7 @@
 	<title>Collaboration guide - Comunity-Based Participatory Research</title>
 </svelte:head>
 
-<div class="my-16 flex flex-col items-center space-y-24">
+<div class="mt-12 mb-32 flex flex-col items-center space-y-32">
 	<section class="container rounded-2xl">
 		<div class="flex items-center gap-8 text-left">
 			<div
