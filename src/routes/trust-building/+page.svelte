@@ -107,10 +107,6 @@
 		</div>
 	</section>
 
-	<section class="container text-center">
-		<ReferenceLink theme="cornsilk" refs={[{ name: 'Wilkins (2018)', link: '' }]} />
-	</section>
-
 	<section class="container">
 		<div class="grid grid-cols-2 gap-20 rounded-lg bg-dry-sage-100">
 			<div class="p-8">
@@ -127,6 +123,10 @@
 				</List>
 			</div>
 		</div>
+	</section>
+
+	<section class="container text-center">
+		<ReferenceLink theme="cornsilk" refs={[{ name: 'Wilkins (2018)', link: '' }]} />
 	</section>
 
 	<section class="container flex gap-8">
