@@ -116,10 +116,10 @@
 			</Card>
 		</div>
 
-		<div class="absolute rotate-45 text-2xl text-light-bronze-500 lg:top-200">
+		<div class="absolute top-200 rotate-45 text-2xl text-light-bronze-500">
 			<FontAwesomeIcon icon={faArrowsLeftRight} />
 		</div>
-		<div class="absolute rotate-90 text-2xl text-light-bronze-500 lg:top-154 lg:ml-170">
+		<div class="absolute top-154 ml-170 rotate-90 text-2xl text-light-bronze-500">
 			<FontAwesomeIcon icon={faArrowsLeftRight} />
 		</div>
 	</section>
