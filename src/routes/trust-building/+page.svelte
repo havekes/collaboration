@@ -134,7 +134,11 @@
 			class="flex h-full w-4/7 flex-col items-center justify-center gap-2 rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
 		>
 			<img src={picture2} alt="" class="h-auto w-full rounded-xl" />
-			<ReferenceLink theme="cornsilk" refs={[{ name: 'Wilkins (2018)', link: '' }]} />
+			<ReferenceLink
+				theme="cornsilk"
+				refs={[{ name: 'Jagosh et al. (2015)', link: '' }]}
+				adapted={false}
+			/>
 		</div>
 		<Card theme="cornsilk" class="w-3/7">
 			<CardTitle theme="cornsilk">Trust in Community-based participatory research</CardTitle>

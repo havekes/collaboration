@@ -7,9 +7,10 @@
 	type Props = {
 		refs: Array<Ref>;
 		theme: 'dry-sage' | 'cornsilk' | 'light-bronze';
+		adapted?: boolean;
 	};
 
-	let { refs, theme }: Props = $props();
+	let { refs, theme, adapted = true }: Props = $props();
 
 	let refCount = $derived(refs.length);
 	let linkClasses = $derived.by(() => {
@@ -26,7 +27,11 @@
 
 <p class="text-xs text-gray-700">
 	<span class="italic">Note.</span>
-	Adapted from
+	{#if adapted}
+		Adapted from
+	{:else}
+		From
+	{/if}
 	{#each refs as { name, link }, i}
 		<a href={'/references#' + link} class={linkClasses}>
 			{name}

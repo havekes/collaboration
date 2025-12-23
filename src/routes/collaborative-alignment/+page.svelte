@@ -177,6 +177,6 @@
 	</section>
 
 	<section class="container text-center">
-		<ReferenceLink theme="cornsilk" refs={[{ name: 'Kato & Suzuki (2022)', link: '' }]} />
+		<ReferenceLink theme="cornsilk" refs={[{ name: 'Walker et al. (2023)', link: '' }]} />
 	</section>
 </div>

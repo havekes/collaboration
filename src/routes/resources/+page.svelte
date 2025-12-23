@@ -28,6 +28,11 @@
 	<StickyTitle>Enhancing collaboration: Strategies and Skills</StickyTitle>
 	<div class="container w-full space-y-4">
 		<ListItem theme="cornsilk">
+			<Link theme="cornsilk" href="https://positivepsychology.com/collaboration/">
+				Enhancing Collaboration In The Workplace: 5 Strategies
+			</Link>
+		</ListItem>
+		<ListItem theme="cornsilk">
 			<iframe
 				width="560"
 				height="315"
@@ -39,15 +44,9 @@
 				allowfullscreen
 			></iframe>
 		</ListItem>
-		<ListItem theme="cornsilk">
-			<Link theme="cornsilk" href="https://positivepsychology.com/collaboration/">
-				Enhancing Collaboration In The Workplace: 5 Strategies
-			</Link>
-		</ListItem>
 	</div>
 
 	<StickyTitle>Steps for effective communication</StickyTitle>
-
 	<div class="container w-full">
 		<ListItem theme="cornsilk">
 			<Link
@@ -58,6 +57,7 @@
 			</Link>
 		</ListItem>
 	</div>
+
 	<StickyTitle>Fostering partnership in community engagement</StickyTitle>
 	<div class="container w-full space-y-3">
 		<ListItem theme="cornsilk">
