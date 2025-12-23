@@ -27,7 +27,7 @@
 		{ name: 'Competencies', href: '/competencies' },
 		{ name: 'Trust', href: '/trust-building' },
 		{ name: 'Rolefulness', href: '/rolefulness' },
-		{ name: '4-P Foundation', href: '/collaborative-alignment' }
+		{ name: 'Collaborative alignment', href: '/collaborative-alignment' }
 	];
 </script>
 

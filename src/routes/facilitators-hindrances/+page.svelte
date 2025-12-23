@@ -86,6 +86,11 @@
 					<ListItem>
 						Address by promoting transparency, openness, accountability, and inclusive practices.
 					</ListItem>
+					<ListItem>
+						<strong>
+							<Link theme="dry-sage" href="/trust-building">See: Building trust</Link>
+						</strong>
+					</ListItem>
 				</List>
 				<List title="Inconsistent partner participation/membership">
 					<ListItem>
@@ -96,6 +101,11 @@
 				<List title="Lack of shared vision, goals, and/or mission">
 					<ListItem>Leads to misaligned goals and fragmented efforts.</ListItem>
 					<ListItem>Regularly revisit and reaffirm shared mission and objectives.</ListItem>
+					<ListItem>
+						<strong>
+							<Link theme="dry-sage" href="/trust-building">See: Building trust</Link>
+						</strong>
+					</ListItem>
 				</List>
 				<List title="Lack of mutual benefits">
 					<ListItem>
@@ -127,6 +137,16 @@
 					<ListItem theme="cornsilk">
 						Valuing diverse perspectives to enrich project design and implementation
 					</ListItem>
+					<ListItem theme="cornsilk">
+						<strong>
+							<Link
+								theme="cornsilk"
+								href="/competencies#Understanding-Community-Context-to-Work-Synergistically"
+							>
+								See: Competencies
+							</Link>
+						</strong>
+					</ListItem>
 				</List>
 				<List title="High-quality leadership">
 					<ListItem theme="cornsilk">
@@ -140,6 +160,13 @@
 					</ListItem>
 					<ListItem theme="cornsilk">
 						Trusted individuals with strong reputations, fostering credibility and trust
+					</ListItem>
+					<ListItem theme="cornsilk">
+						<strong>
+							<Link theme="cornsilk" href="/competencies#Co-Leadership-Skills">
+								See: Competencies
+							</Link>
+						</strong>
 					</ListItem>
 				</List>
 				<List title="Well-structured meeting">
@@ -189,9 +216,26 @@
 					<ListItem>
 						Can result in frustration, power struggles, and reduced collaboration effectiveness
 					</ListItem>
+					<ListItem>
+						<strong>
+							<Link
+								theme="dry-sage"
+								href="/best-practices#Establish-Clear-Expectations-and-Common-Understanding"
+							>
+								See: Best practices
+							</Link>
+						</strong>
+					</ListItem>
 				</List>
 				<List title="Poor or unequal decision-making">
 					<ListItem>Researchers needs to ensure decentralized decision processes.</ListItem>
+					<ListItem>
+						<strong>
+							<Link theme="dry-sage" href="/best-practices#Promote-Equitable-Decision-Making">
+								See: Best practices
+							</Link>
+						</strong>
+					</ListItem>
 				</List>
 				<List title="Excessive funding pressures or funding control struggles">
 					<ListItem>Short-term funding cycles disrupting long-term collaboration</ListItem>
@@ -211,6 +255,16 @@
 					>
 					<ListItem theme="cornsilk">
 						Promoting mutual learning and informed decision-making
+					</ListItem>
+					<ListItem theme="cornsilk">
+						<strong>
+							<Link
+								theme="cornsilk"
+								href="/competencies#Facilitating-Multidirectional-Knowledge-and-Skills-Exchange"
+							>
+								See: Competencies
+							</Link>
+						</strong>
 					</ListItem>
 				</List>
 				<List title="Sharing resources">

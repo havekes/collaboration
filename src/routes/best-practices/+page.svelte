@@ -46,7 +46,7 @@
 				'Builds trust and shared ownership.',
 				'Facilitates unified goals and sustained engagement.',
 				'Increases participant enrollment and broadens community impact.',
-				'Strengthens team cohesion.'
+				'Strengthens team cohesion and mutual accountability.'
 			]
 		},
 		{
@@ -80,12 +80,6 @@
 					]
 				},
 				'Maintain regular touchpoints to address questions promptly and offer task-specific training (Farrell et al., 2024, p. 6964).',
-				'Invite honest feedback and constructive criticism.',
-				'Identify key communicators or “translators” skilled in cross-boundary communication (Newcomb et al., 2021).',
-				'Provide communication coaching and training (Walker & Daniels, 2019).',
-				'Offer training using didactic and interactive methods (e.g., role-play with feedback, workshops, group discussions) (Tan et al., 2021).',
-				'Incorporate reflective practices and feedback mechanisms (Tan et al., 2021).',
-				'Develop a compelling rationale for engagement:  communicate purpose (Newcomb et al., 2021).',
 				{
 					'Sustain communication between meetings': [
 						'Share pre-meeting materials to spark interest without overwhelming.',
@@ -94,7 +88,13 @@
 						'Choose appropriate communication modes (e.g., face-to-face, email).',
 						'Assess partners’ preferences for information access, communication styles, and learning methods.'
 					]
-				}
+				},
+				'Invite honest feedback and constructive criticism.',
+				'Identify key communicators or “translators” skilled in cross-boundary communication (Newcomb et al., 2021).',
+				'Provide communication coaching and training (Walker & Daniels, 2019).',
+				'Offer training using didactic and interactive methods (e.g., role-play with feedback, workshops, group discussions) (Tan et al., 2021).',
+				'Incorporate reflective practices and feedback mechanisms (Tan et al., 2021).',
+				'Develop a compelling rationale for engagement:  communicate purpose (Newcomb et al., 2021).'
 			],
 			rightContent: [
 				'Ensures smooth communication, trust, and transparency.',

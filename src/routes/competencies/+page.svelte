@@ -49,7 +49,7 @@
 				'Conduct structured reflexivity sessions to explore identity, positionality, and power dynamics among partners. Explore questions such as “What relationships exist and how are they influencing the research and the people involved? What power dynamics are at play?” Additional questions can be found in Olmos-Vega et al. (2022).',
 				'Use narrative and visual tools such as the Tree of Life, River of Life, or metaphor-based reflection to explore identity in relation to others.',
 				'Apply Person-Centred Approaches to build deeper community connections.',
-				'Exploring both individual and collective identity using tools such as cultural mapping[s2] , strengths inventories, and life histories.',
+				'Exploring both individual and collective identity using tools such as cultural mapping, strengths inventories, and life histories.',
 				'Encourage partners to reflect on how their institutional affiliations shape their roles and perceptions.'
 			]
 		},
@@ -88,7 +88,7 @@
 			]
 		},
 		{
-			title: 'Facilitating multidirectional knowledge and skills exchange',
+			title: 'Facilitating Multidirectional Knowledge and Skills Exchange',
 			theme: 'cornsilk',
 			leftContent: [
 				{
@@ -171,12 +171,12 @@
 				},
 				{
 					'It includes': [
-						'Assessing community “readiness” to act on an issue.',
+						'Assessing community “readiness” to act on a matter.',
 						'Understanding community experiences with the problem and prior solutions.',
 						'Listening to diverse perspectives, emotions, and lived experiences.',
 						'Designing and testing ideas with rapid feedback loops.',
 						'Reflecting on one’s own practice and stakeholder motivations.',
-						'Monitoring ethical practice and participant safety throughout the research process.'
+						'Monitoring ethical practice throughout the research process.'
 					]
 				}
 			],

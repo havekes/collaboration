@@ -69,7 +69,9 @@
 						<strong>Empathetic:</strong> able to understand others feelings
 					</ListItem>
 					<ListItem theme="cornsilk"><strong>Honest:</strong> truthful and open</ListItem>
-					<ListItem><strong>Humble:</strong> assumes own importance no more than others</ListItem>
+					<ListItem theme="cornsilk">
+						<strong>Humble:</strong> assumes own importance no more than others
+					</ListItem>
 					<ListItem theme="cornsilk">
 						<strong>Respectful:</strong> regards others and their perspectives as valuable
 					</ListItem>
@@ -107,7 +109,7 @@
 	<section class="container m-auto my-12">
 		<div class="grid grid-cols-2 gap-20 rounded-lg bg-dry-sage-100">
 			<div class="p-8">
-				<List title="Building trust must consider:">
+				<List title="Factors to consider when building trust:">
 					<ListItem>Variability in dimensions of trust</ListItem>
 					<ListItem>Characteristics of trustworthy researchers</ListItem>
 				</List>
@@ -141,8 +143,8 @@
 				<List title="How to build trust?"><span></span></List>
 			</div>
 			<Blockquote>
-				<strong>Trust by Proxy:</strong> Trust developed in one community relationship extends to other
-				stakeholders, facilitating broader collaboration.
+				<strong>Example - Trust by Proxy:</strong> Trust developed in one community relationship extends
+				to other stakeholders, facilitating broader collaboration.
 			</Blockquote>
 		</Card>
 	</section>

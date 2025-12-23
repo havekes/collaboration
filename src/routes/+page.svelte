@@ -26,13 +26,22 @@
 	<section class="container rounded-2xl">
 		<div class="flex items-center gap-8 text-left">
 			<div
-				class="flex h-full w-2/3 items-center justify-center rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
+				class="flex h-full w-2/3 flex-col items-center justify-center rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
 			>
 				<img
 					src={picture1}
 					alt="Key factors to the success of partnerships"
 					class="h-auto w-full"
 				/>
+				<p>Community-based Participatory Research Conceptual Model</p>
+				<div class="text-xs text-gray-700">
+					<span class="italic">Note.</span> Adapted from Oetzel et al. (2022). The original source
+					is licensed under
+					<a
+						class="underline underline-offset-2"
+						href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a
+					>
+				</div>
 			</div>
 			<div class="flex-1 space-y-6">
 				<h2
@@ -109,28 +118,23 @@
 			</div>
 			<Card theme="cornsilk" class="flex-1">
 				<RoundedIcon icon={faScaleBalanced} color="cornsilk" colorWeight="300">
-					Capacity to interpret and respond to individual and relational identity, connection,
-					uniqueness and inequities
+					Reflexivity on Identity and Power
 				</RoundedIcon>
 
 				<RoundedIcon icon={faHandshake} color="cornsilk" colorWeight="300">
-					Ability of communities and partners to work in the most suitable, inclusive and
-					synergistic way
+					Understanding Community Context to Work Synergistically
 				</RoundedIcon>
 
 				<RoundedIcon icon={faArrowsRotate} color="cornsilk" colorWeight="300">
-					Aptitude for generating safe and inclusive spaces for multidirectional knowledge and
-					skills exchange
+					Facilitating multidirectional knowledge and skills exchange
 				</RoundedIcon>
 
 				<RoundedIcon icon={faPersonChalkboard} color="cornsilk" colorWeight="300">
-					Expertise in democratic leadership and/or facilitation to balance competing
-					prioritiesReferences and ensure shared decision-making
+					Co-Leadership Skills
 				</RoundedIcon>
 
 				<RoundedIcon icon={faScaleBalanced} color="cornsilk" colorWeight="300">
-					Capacity to interpret and respond to individual and relational identity, connection,
-					uniqueness and inequities
+					Adaptive Learning Capacity
 				</RoundedIcon>
 			</Card>
 		</div>
@@ -152,7 +156,12 @@
 					Understanding roles <FontAwesomeIcon icon={faArrowRight} /> maintain & establish relationship
 				</MainCard>
 
-				<MainCard icon={faHandsHolding} title="Collaborative Alignment" link="See 4-P foundation">
+				<MainCard
+					icon={faHandsHolding}
+					title="Collaborative Alignment"
+					href="/collaborative-alignment"
+					link="See 4-P foundation"
+				>
 					Alignment <FontAwesomeIcon icon={faArrowRight} /> collaborative success
 				</MainCard>
 			</div>
@@ -171,11 +180,16 @@
 			<div class="w-2/3 flex-1">
 				<div class="flex gap-8">
 					<Card theme="cornsilk" class="flex-1">
-						<HighlightLink href="" text="References" color="cornsilk" colorWeight="300" />
+						<HighlightLink
+							href="/references"
+							text="References"
+							color="cornsilk"
+							colorWeight="300"
+						/>
 					</Card>
 
 					<Card theme="cornsilk" class="flex-1">
-						<HighlightLink href="" text="Resources" color="cornsilk" colorWeight="300" />
+						<HighlightLink href="/resources" text="Resources" color="cornsilk" colorWeight="300" />
 					</Card>
 				</div>
 			</div>

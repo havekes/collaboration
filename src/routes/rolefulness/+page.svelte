@@ -94,7 +94,7 @@
 					<FontAwesomeIcon icon={faArrowsLeftRight} class="rotate-90" />
 				</div>
 				<RoundedIcon icon={faBrain} color="cornsilk" colorWeight="300">
-					<strong>Social Role</strong> (being part of a group, recognized for your role).
+					<strong>Internal Role</strong> (feeling capable, confident, and secure in who you are).
 				</RoundedIcon>
 			</Card>
 			<Card theme="cornsilk" class="text-gray-800">
