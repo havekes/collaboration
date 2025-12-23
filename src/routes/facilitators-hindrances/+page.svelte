@@ -3,7 +3,7 @@
 	import List from '$lib/components/List.svelte';
 	import ListBlock from '$lib/components/ListBlock.svelte';
 	import ListItem from '$lib/components/ListItem.svelte';
-	import PageTitle from '$lib/components/PageTitle.svelte';
+	import ReferenceLink from '$lib/components/ReferenceLink.svelte';
 	import StickyTitle from '$lib/components/StickyTitle.svelte';
 </script>
 
@@ -50,8 +50,7 @@
 						Recognizes and values diverse contributions and perspectives.
 					</ListItem>
 					<ListItem theme="cornsilk">
-						Requires careful selection of participants to ensure inclusivity and equity (Newcomb et
-						al., 2021, p. 136).
+						Requires careful selection of participants to ensure inclusivity and equity.
 					</ListItem>
 				</List>
 				<List title="Mutual benefit for all partners">
@@ -76,6 +75,13 @@
 						Preserves partnership integrity and fosters constructive dialogue.
 					</ListItem>
 				</List>
+				<ReferenceLink
+					theme="cornsilk"
+					refs={[
+						{ name: 'Bustos et al. (2024)', link: '' },
+						{ name: 'Newcomb et al. (2021)', link: '' }
+					]}
+				/>
 			</ListBlock>
 
 			<ListBlock title="Hindering Factors" theme="dry-sage">
@@ -112,6 +118,7 @@
 						Partnership sustainability declines when benefits are perceived as unequal.
 					</ListItem>
 				</List>
+				<ReferenceLink theme="dry-sage" refs={[{ name: 'Bustos et al. (2024)', link: '' }]} />
 			</ListBlock>
 		</div>
 	</section>
@@ -125,8 +132,7 @@
 					<ListItem theme="cornsilk">Shared decision-making power with communities</ListItem>
 					<ListItem theme="cornsilk">Communities empowered to lead or co-lead initiatives</ListItem>
 					<ListItem theme="cornsilk">
-						Enhanced motivation for collaboration due to visible, meaningful outcomes (Bustos et
-						al., 2024, p. 8)
+						Enhanced motivation for collaboration due to visible, meaningful outcomes
 					</ListItem>
 				</List>
 				<List title="Bringing together diverse stakeholders">
@@ -195,6 +201,7 @@
 						</strong>
 					</ListItem>
 				</List>
+				<ReferenceLink theme="cornsilk" refs={[{ name: 'Bustos et al. (2024)', link: '' }]} />
 			</ListBlock>
 			<ListBlock title="Hindering Factors" theme="dry-sage">
 				<List title="Excessive time commitment & High burden of activities/tasks">
@@ -241,6 +248,7 @@
 					<ListItem>Short-term funding cycles disrupting long-term collaboration</ListItem>
 					<ListItem>Power imbalances when funders dictate terms without community input</ListItem>
 				</List>
+				<ReferenceLink theme="dry-sage" refs={[{ name: 'Bustos et al. (2024)', link: '' }]} />
 			</ListBlock>
 		</div>
 	</section>
@@ -294,6 +302,7 @@
 						Developing personal rapport and shared understanding beyond formal agreements
 					</ListItem>
 				</List>
+				<ReferenceLink theme="cornsilk" refs={[{ name: 'Bustos et al. (2024)', link: '' }]} />
 			</ListBlock>
 			<ListBlock title="Hindering Factors" theme="dry-sage">
 				<List title="Poor communication between partners">
@@ -308,9 +317,10 @@
 					<ListItem>Risk of misrepresentation or inaccurate portrayal of community needs</ListItem>
 					<ListItem>
 						Highlights oppressive structures in academic language; calls for intentional, inclusive
-						dialogue to reduce barriers (Bustos et al., 2024, p. 9)
+						dialogue to reduce barriers
 					</ListItem>
 				</List>
+				<ReferenceLink theme="dry-sage" refs={[{ name: 'Bustos et al. (2024)', link: '' }]} />
 			</ListBlock>
 		</div>
 	</section>

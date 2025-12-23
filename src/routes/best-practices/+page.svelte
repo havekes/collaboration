@@ -12,12 +12,17 @@
 	};
 
 	type Content = Array<string | Record<string, Array<string>>>;
+	type Ref = {
+		name: string;
+		link: string;
+	};
 	type AccordionData = {
 		title: string;
 		id?: string;
 		theme: 'cornsilk' | 'dry-sage';
 		leftContent: Content;
 		rightContent: Content;
+		refs: Array<Ref>;
 	};
 
 	const accordionData: AccordionData[] = [
@@ -32,6 +37,12 @@
 			rightContent: [
 				'Facilitates strong personal connection.',
 				'Ensures inclusivity, ethical consideration, and cultural relevance.'
+			],
+			refs: [
+				{
+					name: 'Farrell et al. (2024)',
+					link: ''
+				}
 			]
 		},
 		{
@@ -39,7 +50,7 @@
 			theme: 'dry-sage',
 			leftContent: [
 				'Promote constant communication: keep all partners informed and engaged.',
-				'Encourage active dialogue and deliberation, emphasizing active listening, respectful questioning, and collaborative learning (“talking with,” not “talking at”) (Walker & Daniels, 2019).'
+				'Encourage active dialogue and deliberation, emphasizing active listening, respectful questioning, and collaborative learning.'
 			],
 			rightContent: [
 				'Enhances creativity, problem-solving, and research quality.',
@@ -47,6 +58,16 @@
 				'Facilitates unified goals and sustained engagement.',
 				'Increases participant enrollment and broadens community impact.',
 				'Strengthens team cohesion and mutual accountability.'
+			],
+			refs: [
+				{
+					name: 'Farrell et al. (2024)',
+					link: ''
+				},
+				{
+					name: 'Walker & Daniels (2019)',
+					link: ''
+				}
 			]
 		},
 		{
@@ -55,14 +76,24 @@
 			leftContent: [
 				'Set clear expectations for roles, responsibilities, communication norms, and time commitments.',
 				'Foster openness to accommodations and adaptations as needed.',
-				'Use systems tools (e.g., “situation maps,” “generations walls”) to visualize challenges and future scenarios (Walker & Daniels, 2019, p. 3).',
-				'Engage in shared imagination of best and worst possible futures to align perspectives (Walker & Daniels, 2019, p. 3).',
-				'Ensure all parties understand project goals and their contributions (Farrell et al., 2024, p. 6964).'
+				'Use systems tools (e.g., “situation maps,” “generations walls”) to visualize challenges and future scenarios.',
+				'Engage in shared imagination of best and worst possible futures to align perspectives.',
+				'Ensure all parties understand project goals and their contributions.'
 			],
 			rightContent: [
 				'Creates a foundation for purposeful, goal-directed collaboration.',
 				'Reduces misunderstandings and role ambiguity.',
 				'Enhances coordination and accountability across partners.'
+			],
+			refs: [
+				{
+					name: 'Farrell et al. (2024)',
+					link: ''
+				},
+				{
+					name: 'Walker & Daniels (2019)',
+					link: ''
+				}
 			]
 		},
 		{
@@ -74,34 +105,52 @@
 				{
 					'Be transparent about': [
 						'Project timelines and workload.',
-						'Expected feedback types and frequency(Farrell et al., 2024).',
+						'Expected feedback types and frequency.',
 						'Desired outcomes and time commitments.',
-						'Number and format of meetings, webinars, calls, and document reviews (Newcomb et al., 2021, p. 136).'
+						'Number and format of meetings, webinars, calls, and document reviews.'
 					]
 				},
-				'Maintain regular touchpoints to address questions promptly and offer task-specific training (Farrell et al., 2024, p. 6964).',
+				'Maintain regular touchpoints to address questions promptly and offer task-specific training.',
 				{
 					'Sustain communication between meetings': [
 						'Share pre-meeting materials to spark interest without overwhelming.',
 						'Follow up post-meeting on action items.',
-						'Ensure communication is concise, timely, and mutually agreed upon(Newcomb et al., 2021, p. 136).',
-						'Choose appropriate communication modes (e.g., face-to-face, email).',
+						'Ensure communication is concise, timely, and mutually agreed upon.',
+						'Choose appropriate communication modes (e.g., face-to-face, email, social media).',
 						'Assess partners’ preferences for information access, communication styles, and learning methods.'
 					]
 				},
 				'Invite honest feedback and constructive criticism.',
-				'Identify key communicators or “translators” skilled in cross-boundary communication (Newcomb et al., 2021).',
-				'Provide communication coaching and training (Walker & Daniels, 2019).',
-				'Offer training using didactic and interactive methods (e.g., role-play with feedback, workshops, group discussions) (Tan et al., 2021).',
-				'Incorporate reflective practices and feedback mechanisms (Tan et al., 2021).',
-				'Develop a compelling rationale for engagement:  communicate purpose (Newcomb et al., 2021).'
+				'Identify key communicators or “translators” skilled in cross-boundary communication.',
+				'Provide communication coaching and training.',
+				'Offer training using didactic and interactive methods (e.g., role-play with feedback, workshops, group discussions).',
+				'Incorporate reflective practices and feedback mechanisms.',
+				'Develop a compelling rationale for engagement:  communicate purpose.'
 			],
 			rightContent: [
 				'Ensures smooth communication, trust, and transparency.',
 				'Promotes knowledge sharing and inclusion of diverse perspectives.',
 				'Brings real-world relevance to research.',
 				'Empowers participants and deepens understanding of research gaps.',
-				'Advances knowledge and improves policy relevance through reciprocal learning (Newcomb et al., 2021, p. 136).'
+				'Advances knowledge and improves policy relevance through reciprocal learning.'
+			],
+			refs: [
+				{
+					name: 'Farrell et al. (2024)',
+					link: ''
+				},
+				{
+					name: 'Newcomb et al. (2021)',
+					link: ''
+				},
+				{
+					name: 'Tan et al. (2021)',
+					link: ''
+				},
+				{
+					name: 'Walker & Daniels (2019)',
+					link: ''
+				}
 			]
 		},
 		{
@@ -110,13 +159,23 @@
 			leftContent: [
 				'Report the impact of partner contributions clearly.',
 				'Show how partner insights have been integrated and how they shaped outcomes.',
-				'Follow up on stakeholder participation (Walker & Daniels, 2019).',
-				'Honor commitments made during the collaboration process (Walker & Daniels, 2019).'
+				'Follow up on stakeholder participation.',
+				'Honor commitments made during the collaboration process.'
 			],
 			rightContent: [
 				'Builds trust and community support.',
 				'Enhances transparency and shared ownership.',
 				'Validates partners’ contributions and reinforces their value.'
+			],
+			refs: [
+				{
+					name: 'Farrell et al. (2024)',
+					link: ''
+				},
+				{
+					name: 'Walker & Daniels (2019)',
+					link: ''
+				}
 			]
 		},
 		{
@@ -138,6 +197,12 @@
 			rightContent: [
 				'Supports capacity building for all collaborators.',
 				'Fosters a more inclusive, equitable, and sustainable working environment.'
+			],
+			refs: [
+				{
+					name: 'Farrell et al. (2024)',
+					link: ''
+				}
 			]
 		},
 		{
@@ -145,14 +210,24 @@
 			theme: 'cornsilk',
 			leftContent: [
 				'Address power imbalances by giving partners a governing voice.',
-				'Clearly define partners’ roles in decision-making(Walker & Daniels, 2019).',
-				'Clarify how partner input influences final decisions (Walker & Daniels, 2019).',
+				'Clearly define partners’ roles in decision-making.',
+				'Clarify how partner input influences final decisions.',
 				'Define the “decision space”: identify which issues are open for co-determination.'
 			],
 			rightContent: [
 				'Promotes fairness and shared leadership.',
 				'Increases legitimacy and buy-in from all stakeholders.',
 				'Strengthens democratic and ethical research practices.'
+			],
+			refs: [
+				{
+					name: 'Farrell et al. (2024)',
+					link: ''
+				},
+				{
+					name: 'Walker & Daniels (2019)',
+					link: ''
+				}
 			]
 		},
 		{
@@ -161,8 +236,9 @@
 			leftContent: [
 				'Accommodate flexible meeting times and formats.',
 				{
-					'Allow for iterative shifts in project direction (without full rescoping) (Newcomb et al., 2021, p. 136)':
-						['Establish a process to discuss changes with funders (Newcomb et al., 2021, p. 136).']
+					'Allow for iterative shifts in project direction (without full rescoping)': [
+						'Establish a process to discuss changes with funders.'
+					]
 				},
 				'Develop contingency plans and anticipate potential surprises.'
 			],
@@ -170,20 +246,36 @@
 				'Enhances adaptability to emerging challenges.',
 				'Supports responsiveness to real-time feedback and contextual changes.',
 				'Maintains project relevance and feasibility.'
+			],
+			refs: [
+				{
+					name: 'Farrell et al. (2024)',
+					link: ''
+				},
+				{
+					name: 'Newcomb et al. (2021)',
+					link: ''
+				}
 			]
 		},
 		{
 			title: 'Determine a Clear Endpoint',
 			theme: 'cornsilk',
 			leftContent: [
-				'Establish a logical, achievable endpoint that defines success (Newcomb et al., 2021, p. 137).',
-				'Set measurable milestones to track progress (Newcomb et al., 2021, p. 137).',
-				'Use milestones to assess success and guide shifts in priorities (Newcomb et al., 2021, p. 137).'
+				'Establish a logical, achievable endpoint that defines success.',
+				'Set measurable milestones to track progress.',
+				'Use milestones to assess success and guide shifts in priorities.'
 			],
 			rightContent: [
 				'Provides clarity on project closure.',
 				'Enables evaluation of outcomes and impact.',
 				'Supports reflection and knowledge transfer for future initiatives.'
+			],
+			refs: [
+				{
+					name: 'Newcomb et al. (2021)',
+					link: ''
+				}
 			]
 		}
 	];
@@ -210,6 +302,7 @@
 				leftContent={item.leftContent}
 				rightTitle="Why do it?"
 				rightContent={item.rightContent}
+				refs={item.refs}
 			/>
 		{/each}
 	</section>

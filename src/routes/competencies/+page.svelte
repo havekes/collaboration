@@ -12,12 +12,18 @@
 	};
 
 	type Content = Array<string | Record<string, Array<string>>>;
+	type Ref = {
+		name: string;
+		link: string;
+	};
 	type AccordionData = {
 		title: string;
 		theme: 'cornsilk' | 'dry-sage';
 		leftContent: Content;
 		middleContent: Content;
 		rightContent: Content;
+		refs: Array<Ref>;
+		refsAlt?: Array<Ref>;
 	};
 
 	const accordionData: AccordionData[] = [
@@ -46,11 +52,23 @@
 				'Leads to more socially cohesive and sustainable collaborations.'
 			],
 			rightContent: [
-				'Conduct structured reflexivity sessions to explore identity, positionality, and power dynamics among partners. Explore questions such as “What relationships exist and how are they influencing the research and the people involved? What power dynamics are at play?” Additional questions can be found in Olmos-Vega et al. (2022).',
+				'Conduct structured reflexivity sessions to explore identity, positionality, and power dynamics among partners. Explore questions such as “What relationships exist and how are they influencing the research and the people involved? What power dynamics are at play?” (Olmos-Vega et al., 2022, p. 244). Additional questions can be found in Olmos-Vega et al. (2022).',
 				'Use narrative and visual tools such as the Tree of Life, River of Life, or metaphor-based reflection to explore identity in relation to others.',
 				'Apply Person-Centred Approaches to build deeper community connections.',
 				'Exploring both individual and collective identity using tools such as cultural mapping, strengths inventories, and life histories.',
 				'Encourage partners to reflect on how their institutional affiliations shape their roles and perceptions.'
+			],
+			refs: [
+				{
+					name: 'Ozano et al. (2024)',
+					link: ''
+				}
+			],
+			refsAlt: [
+				{
+					name: 'Olmos-Vega et al. (2022)',
+					link: ''
+				}
 			]
 		},
 		{
@@ -85,6 +103,12 @@
 						'Use of field checklists to document physical, social, and environmental assets or concerns.'
 					]
 				}
+			],
+			refs: [
+				{
+					name: 'Ozano et al. (2024)',
+					link: ''
+				}
 			]
 		},
 		{
@@ -117,6 +141,12 @@
 					Measures: [
 						'Use evaluation methods such as ‘Most Significant Change’ exercise or Ripple Effect Mapping to capture learning and impact.'
 					]
+				}
+			],
+			refs: [
+				{
+					name: 'Ozano et al. (2024)',
+					link: ''
 				}
 			]
 		},
@@ -153,6 +183,12 @@
 					Measures: [
 						'Monitor decision-making equity using qualitative and quantitative indicators (e.g., representation in subgroups, leadership rotation, policy development).'
 					]
+				}
+			],
+			refs: [
+				{
+					name: 'Ozano et al. (2024)',
+					link: ''
 				}
 			]
 		},
@@ -196,6 +232,12 @@
 				'Co-analyze data in collaborative sessions to identify key challenges and priorities.',
 				'Translate research data into accessible “discussion tools” (e.g., tables, infographics, one-liners).',
 				'Use participatory methods to gather immediate feedback on interventions.'
+			],
+			refs: [
+				{
+					name: 'Ozano et al. (2024)',
+					link: ''
+				}
 			]
 		}
 	];
@@ -223,6 +265,8 @@
 				middleContent={item.middleContent}
 				rightTitle="How to implement"
 				rightContent={item.rightContent}
+				refs={item.refs}
+				refsAlt={item.refsAlt}
 			/>
 		{/each}
 	</section>

@@ -5,6 +5,7 @@
 	import CardTitle from '$lib/components/CardTitle.svelte';
 	import List from '$lib/components/List.svelte';
 	import ListItem from '$lib/components/ListItem.svelte';
+	import ReferenceLink from '$lib/components/ReferenceLink.svelte';
 	import { faArrowsLeftRight } from '@fortawesome/free-solid-svg-icons';
 	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 </script>
@@ -13,7 +14,7 @@
 	<title>Trust Building</title>
 </svelte:head>
 
-<div class="my-8 flex flex-col items-center">
+<div class="my-8 flex flex-col items-center space-y-12">
 	<section class="container mb-8">
 		<h1 class="text-3xl font-bold text-cornsilk-800">Trust Building</h1>
 	</section>
@@ -106,7 +107,11 @@
 		</div>
 	</section>
 
-	<section class="container m-auto my-12">
+	<section class="container text-center">
+		<ReferenceLink theme="cornsilk" refs={[{ name: 'Wilkins (2018)', link: '' }]} />
+	</section>
+
+	<section class="container">
 		<div class="grid grid-cols-2 gap-20 rounded-lg bg-dry-sage-100">
 			<div class="p-8">
 				<List title="Factors to consider when building trust:">
@@ -126,15 +131,17 @@
 
 	<section class="container flex gap-8">
 		<div
-			class="flex h-full w-4/7 items-center justify-center rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
+			class="flex h-full w-4/7 flex-col items-center justify-center gap-2 rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
 		>
 			<img src={picture2} alt="" class="h-auto w-full rounded-xl" />
+			<ReferenceLink theme="cornsilk" refs={[{ name: 'Wilkins (2018)', link: '' }]} />
 		</div>
 		<Card theme="cornsilk" class="w-3/7">
 			<CardTitle theme="cornsilk">Trust in Community-based participatory research</CardTitle>
 			<Blockquote>
 				<strong>Voluntary Trust:</strong> Emerges from close interpersonal relationships; defined as “a
-				consensual absence of calculation, where partners voluntarily forego calculating outcomes”.
+				consensual absence of calculation, where partners voluntarily forego calculating outcomes” (Jagosh
+				et al., 2015, p. 9).
 			</Blockquote>
 			<div class="space-y-2 px-4">
 				<List title="What is it built on?">

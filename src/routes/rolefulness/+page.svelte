@@ -16,6 +16,7 @@
 	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 	import Page from '../competencies/+page.svelte';
 	import Blockquote from '$lib/components/Blockquote.svelte';
+	import ReferenceLink from '$lib/components/ReferenceLink.svelte';
 </script>
 
 <div class="my-8 flex flex-col items-center space-y-8">
@@ -23,7 +24,7 @@
 		<h1 class="text-3xl font-bold text-cornsilk-800">Rolefulness</h1>
 	</section>
 
-	<div class="container grid grid-cols-2 gap-8">
+	<section class="container grid grid-cols-2 gap-8">
 		<div>
 			<div
 				class="space-y-8 rounded-2xl border border-cornsilk-100 bg-white p-8 shadow-sm shadow-cornsilk-100"
@@ -100,11 +101,6 @@
 			<Card theme="cornsilk" class="text-gray-800">
 				<List>
 					<ListItem theme="cornsilk">
-						Social rolefulness
-						<FontAwesomeIcon icon={faArrowRight} class="text-sm text-cornsilk-900" /> social experiences
-						<FontAwesomeIcon icon={faArrowRight} class="text-sm text-cornsilk-900" /> interpersonal communication
-					</ListItem>
-					<ListItem theme="cornsilk">
 						Develop social
 						<FontAwesomeIcon icon={faPlus} class="text-sm text-cornsilk-900" /> communication skills
 						<FontAwesomeIcon icon={faEquals} class="text-sm text-cornsilk-900" /> establish and maintain
@@ -129,5 +125,8 @@
 				</Blockquote>
 			</Card>
 		</div>
-	</div>
+	</section>
+	<section class="text-center">
+		<ReferenceLink theme="cornsilk" refs={[{ name: 'Kato & Suzuki (2022)', link: '' }]} />
+	</section>
 </div>

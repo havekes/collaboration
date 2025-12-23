@@ -16,6 +16,7 @@
 	import Step from '$lib/components/Step.svelte';
 	import MainCard from '$lib/components/MainCard.svelte';
 	import Card from '$lib/components/Card.svelte';
+	import ReferenceLink from '$lib/components/ReferenceLink.svelte';
 </script>
 
 <svelte:head>
@@ -33,15 +34,16 @@
 					alt="Key factors to the success of partnerships"
 					class="h-auto w-full"
 				/>
-				<p>Community-based Participatory Research Conceptual Model</p>
-				<div class="text-xs text-gray-700">
-					<span class="italic">Note.</span> Adapted from Oetzel et al. (2022). The original source
-					is licensed under
-					<a
-						class="underline underline-offset-2"
-						href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a
-					>
-				</div>
+				<p class="mb-2">Community-based Participatory Research Conceptual Model</p>
+				<ReferenceLink
+					theme="cornsilk"
+					refs={[
+						{
+							name: 'Oetzel et al. (2022)',
+							link: 'https://doi.org/10.1186/s12939-022-01663-y'
+						}
+					]}
+				/>
 			</div>
 			<div class="flex-1 space-y-6">
 				<h2
@@ -102,6 +104,27 @@
 						<Step number={9} text="Determine Clear Endpoint" />
 					</div>
 				</div>
+				<ReferenceLink
+					theme="dry-sage"
+					refs={[
+						{
+							name: 'Farrell et al. (2024)',
+							link: ''
+						},
+						{
+							name: 'Newcomb et al. (2021)',
+							link: ''
+						},
+						{
+							name: 'Tan et al. (2021)',
+							link: ''
+						},
+						{
+							name: 'Walker & Daniels (2019)',
+							link: ''
+						}
+					]}
+				/>
 			</Card>
 		</div>
 	</section>
@@ -136,6 +159,15 @@
 				<RoundedIcon icon={faScaleBalanced} color="cornsilk" colorWeight="300">
 					Adaptive Learning Capacity
 				</RoundedIcon>
+				<ReferenceLink
+					theme="dry-sage"
+					refs={[
+						{
+							name: 'Ozano et al. (2024)',
+							link: ''
+						}
+					]}
+				/>
 			</Card>
 		</div>
 	</section>

@@ -3,8 +3,15 @@
 	import { slide } from 'svelte/transition';
 	import AccordionContent from './AccordionContent.svelte';
 	import { page } from '$app/state';
+	import ReferenceLink from './ReferenceLink.svelte';
+	import ReferenceLinkAlt from './ReferenceLinkAlt.svelte';
 
 	type Content = Array<string | Record<string, Array<string>>>;
+	type Ref = {
+		name: string;
+		link: string;
+		alt?: boolean;
+	};
 	type Props = {
 		theme: 'cornsilk' | 'dry-sage';
 		title: string;
@@ -17,6 +24,8 @@
 		rightContent: Content;
 		middleTitle?: string;
 		middleContent?: Content;
+		refs: Array<Ref>;
+		refsAlt?: Array<Ref>;
 	};
 
 	let {
@@ -30,7 +39,9 @@
 		rightTitle,
 		rightContent,
 		middleTitle,
-		middleContent
+		middleContent,
+		refs,
+		refsAlt
 	}: Props = $props();
 
 	let containerClasses = $derived(
@@ -86,6 +97,12 @@
 					<h3 class="font-semibold {subTitleClasses}">{rightTitle}</h3>
 					<AccordionContent {theme} content={rightContent} />
 				</div>
+			</div>
+			<div class="mt-4">
+				<ReferenceLink {theme} {refs} />
+				{#if refsAlt}
+					<ReferenceLinkAlt {theme} refs={refsAlt} />
+				{/if}
 			</div>
 		</div>
 	{/if}

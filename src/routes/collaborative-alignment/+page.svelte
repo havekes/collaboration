@@ -5,6 +5,7 @@
 	import List from '$lib/components/List.svelte';
 	import ListItem from '$lib/components/ListItem.svelte';
 	import LongArrow from '$lib/components/LongArrow.svelte';
+	import ReferenceLink from '$lib/components/ReferenceLink.svelte';
 </script>
 
 <svelte:head>
@@ -173,5 +174,9 @@
 				</Blockquote>
 			</Card>
 		</div>
+	</section>
+
+	<section class="container text-center">
+		<ReferenceLink theme="cornsilk" refs={[{ name: 'Kato & Suzuki (2022)', link: '' }]} />
 	</section>
 </div>
