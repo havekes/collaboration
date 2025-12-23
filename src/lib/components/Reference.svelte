@@ -11,7 +11,8 @@
 
 <p class="ml-12 -indent-12" id={link}>
 	{@render children()}
-	<a href={link} class="text-cornsilk-700 underline underline-offset-2 hover:text-cornsilk-900"
-		>{link}</a
+	<a
+		href={link}
+		class="text-light-bronze-700 underline underline-offset-2 hover:text-light-bronze-900">{link}</a
 	>
 </p>

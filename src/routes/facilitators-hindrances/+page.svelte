@@ -13,7 +13,7 @@
 
 <div class="my-8 flex flex-col items-center">
 	<section class="container mb-8">
-		<h1 class="text-3xl font-bold text-cornsilk-800">
+		<h1 class="text-3xl font-bold text-light-bronze-800">
 			Facilitating & Hindering Factors to the Success of Partnership
 		</h1>
 	</section>

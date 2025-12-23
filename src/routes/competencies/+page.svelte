@@ -249,7 +249,7 @@
 
 <div class="my-8 flex flex-col items-center space-y-8">
 	<section class="container">
-		<h1 class="text-3xl font-bold text-cornsilk-800">Core Competencies</h1>
+		<h1 class="text-3xl font-bold text-light-bronze-800">Core Competencies</h1>
 	</section>
 
 	<section class="container space-y-4">

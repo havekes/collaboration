@@ -27,7 +27,7 @@
 	<section class="container rounded-2xl">
 		<div class="flex items-center gap-8 text-left">
 			<div
-				class="flex h-full w-2/3 flex-col items-center justify-center rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
+				class="flex h-full w-2/3 flex-col items-center justify-center rounded-2xl border border-cornsilk-100 bg-cornsilk-50 p-6 shadow-sm shadow-cornsilk-100"
 			>
 				<img
 					src={picture1}
@@ -221,7 +221,12 @@
 					</Card>
 
 					<Card theme="cornsilk" class="flex-1">
-						<HighlightLink href="/resources" text="Resources" color="cornsilk" colorWeight="300" />
+						<HighlightLink
+							href="/resources"
+							text="Additional resources"
+							color="cornsilk"
+							colorWeight="300"
+						/>
 					</Card>
 				</div>
 			</div>

@@ -14,7 +14,9 @@
 
 <div class="my-8 flex flex-col items-center space-y-8">
 	<section class="container mb-8">
-		<h1 class="text-3xl font-bold text-cornsilk-800">Collaborative Alignment: 4-P Foundation</h1>
+		<h1 class="text-3xl font-bold text-light-bronze-800">
+			Collaborative Alignment: 4-P Foundation
+		</h1>
 	</section>
 
 	<section class="container">

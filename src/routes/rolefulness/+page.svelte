@@ -21,13 +21,13 @@
 
 <div class="my-8 flex flex-col items-center space-y-8">
 	<section class="container">
-		<h1 class="text-3xl font-bold text-cornsilk-800">Rolefulness</h1>
+		<h1 class="text-3xl font-bold text-light-bronze-800">Rolefulness</h1>
 	</section>
 
 	<section class="container grid grid-cols-2 gap-8">
 		<div>
 			<div
-				class="space-y-8 rounded-2xl border border-cornsilk-100 bg-white p-8 shadow-sm shadow-cornsilk-100"
+				class="space-y-8 rounded-2xl border border-cornsilk-100 bg-cornsilk-50 p-8 shadow-sm shadow-cornsilk-100"
 			>
 				<div class="absolute top-135 left-43 rotate-90 text-xl text-dry-sage-500">
 					<FontAwesomeIcon icon={faArrowsLeftRight} />
