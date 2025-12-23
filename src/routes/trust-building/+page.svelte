@@ -77,6 +77,8 @@
 						<strong>Respectful:</strong> regards others and their perspectives as valuable
 					</ListItem>
 				</List>
+
+				<ReferenceLink theme="cornsilk" refs={[{ name: 'Jagosh et al. (2015)', link: '' }]} />
 			</Card>
 
 			<Card theme="light-bronze" class="w-full">
