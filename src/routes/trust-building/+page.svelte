@@ -53,6 +53,11 @@
 				<sup>*</sup>Dimensions of trust more relevant to patients and community members involved in
 				advanced research roles
 			</p>
+			<ReferenceLink
+				theme="cornsilk"
+				refs={[{ name: 'Wilkins (2018)', link: '' }]}
+				adapted={false}
+			/>
 		</Card>
 
 		<div class="w-1/2 space-y-20">
@@ -78,7 +83,11 @@
 					</ListItem>
 				</List>
 
-				<ReferenceLink theme="cornsilk" refs={[{ name: 'Jagosh et al. (2015)', link: '' }]} />
+				<ReferenceLink
+					theme="cornsilk"
+					refs={[{ name: 'Wilkins (2018)', link: '' }]}
+					adapted={false}
+				/>
 			</Card>
 
 			<Card theme="light-bronze" class="w-full">
@@ -98,42 +107,47 @@
 						Value different resources and assets (such as the lived experience)
 					</ListItem>
 				</List>
+
+				<ReferenceLink
+					theme="cornsilk"
+					refs={[{ name: 'Wilkins (2018)', link: '' }]}
+					adapted={false}
+				/>
 			</Card>
 		</div>
 
-		<div class="absolute top-190 rotate-45 text-2xl text-light-bronze-500">
+		<div class="absolute top-180 rotate-45 text-2xl text-light-bronze-500">
 			<FontAwesomeIcon icon={faArrowsLeftRight} />
 		</div>
-		<div class="absolute top-146 ml-165 rotate-90 text-2xl text-light-bronze-500">
+		<div class="absolute top-154 ml-200 rotate-90 text-2xl text-light-bronze-500">
 			<FontAwesomeIcon icon={faArrowsLeftRight} />
 		</div>
 	</section>
 
 	<section class="container">
-		<div class="grid grid-cols-2 gap-20 rounded-lg bg-dry-sage-100">
-			<div class="p-8">
+		<div class="grid grid-cols-2 gap-x-20 gap-y-6 rounded-lg bg-dry-sage-100 py-6">
+			<div class="px-8">
 				<List title="Factors to consider when building trust:">
 					<ListItem>Variability in dimensions of trust</ListItem>
 					<ListItem>Characteristics of trustworthy researchers</ListItem>
 				</List>
 			</div>
-			<div class="p-8">
+			<div class="px-8">
 				<List title="Level of trust may be shaped by:">
 					<ListItem>Educational attainment</ListItem>
 					<ListItem>Cultural beliefs</ListItem>
 					<ListItem>Personal and community experiences with research</ListItem>
 				</List>
 			</div>
+			<div class="col-span-2 text-center">
+				<ReferenceLink theme="cornsilk" refs={[{ name: 'Wilkins (2018)', link: '' }]} />
+			</div>
 		</div>
-	</section>
-
-	<section class="container text-center">
-		<ReferenceLink theme="cornsilk" refs={[{ name: 'Wilkins (2018)', link: '' }]} />
 	</section>
 
 	<section class="container flex gap-8">
 		<div
-			class="flex h-full w-4/7 flex-col items-center justify-center gap-2 rounded-2xl border border-cornsilk-100 bg-white p-6 shadow-sm shadow-cornsilk-100"
+			class="flex h-full w-4/7 flex-col items-center justify-center gap-2 rounded-2xl border border-cornsilk-100 bg-cornsilk-50 p-6 shadow-sm shadow-cornsilk-100"
 		>
 			<img src={picture2} alt="" class="h-auto w-full rounded-xl" />
 			<ReferenceLink
@@ -159,6 +173,7 @@
 				<strong>Example - Trust by Proxy:</strong> Trust developed in one community relationship extends
 				to other stakeholders, facilitating broader collaboration.
 			</Blockquote>
+			<ReferenceLink theme="cornsilk" refs={[{ name: 'Jagosh et al. (2015)', link: '' }]} />
 		</Card>
 	</section>
 </div>

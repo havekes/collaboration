@@ -25,11 +25,11 @@
 	</section>
 
 	<section class="container grid grid-cols-2 gap-8">
-		<div>
-			<div
-				class="space-y-8 rounded-2xl border border-cornsilk-100 bg-cornsilk-50 p-8 shadow-sm shadow-cornsilk-100"
-			>
-				<div class="absolute top-135 left-43 rotate-90 text-xl text-dry-sage-500">
+		<div
+			class="flex justify-center space-y-8 rounded-2xl border border-cornsilk-100 bg-cornsilk-50 p-8 shadow-sm shadow-cornsilk-100"
+		>
+			<div class="space-y-8">
+				<div class="absolute top-143 ml-16 rotate-90 text-xl text-dry-sage-500">
 					<FontAwesomeIcon icon={faArrowsLeftRight} />
 				</div>
 				<section class=" grid grid-cols-2">
@@ -39,22 +39,22 @@
 						</Card>
 					</div>
 					<div class="space-y-4 text-sm text-gray-800">
-						<Card theme="dry-sage" class="p-4!">My role is necessary for other people.</Card>
-						<Card theme="dry-sage" class="p-4!">I can apply my strong point for society.</Card>
-						<Card theme="dry-sage" class="p-4!">I have a role in the group I belong to.</Card>
-						<Card theme="dry-sage" class="p-4!">I am useful in society.</Card>
+						<Card theme="dry-sage" class="w-60 p-4!">My role is necessary for other people.</Card>
+						<Card theme="dry-sage" class="w-60 p-4!">I can apply my strong point for society.</Card>
+						<Card theme="dry-sage" class="w-60 p-4!">I have a role in the group I belong to.</Card>
+						<Card theme="dry-sage" class="w-60 p-4!">I am useful in society.</Card>
 					</div>
 					<div class="text-xl text-dry-sage-500">
-						<div class="absolute top-70 left-78 -rotate-30">
+						<div class="absolute top-70 ml-46 -rotate-32">
 							<FontAwesomeIcon icon={faArrowRightLong} />
 						</div>
-						<div class="absolute top-89 left-78 -rotate-6">
+						<div class="absolute top-90 ml-46 -rotate-12">
 							<FontAwesomeIcon icon={faArrowRightLong} />
 						</div>
-						<div class="absolute top-108 left-78 rotate-16">
+						<div class="absolute top-110 ml-46 rotate-12">
 							<FontAwesomeIcon icon={faArrowRightLong} />
 						</div>
-						<div class="absolute top-125 left-78 rotate-30">
+						<div class="absolute top-130 ml-46 rotate-32">
 							<FontAwesomeIcon icon={faArrowRightLong} />
 						</div>
 					</div>
@@ -67,18 +67,21 @@
 						</Card>
 					</div>
 					<div class="space-y-4 text-sm text-gray-800">
-						<Card theme="light-bronze" class="p-4!">I realize my individuality by my role.</Card>
-						<Card theme="light-bronze" class="p-4!">I am satisfied with my role.</Card>
-						<Card theme="light-bronze" class="p-4!">I gain confidence because of my role.</Card>
+						<Card theme="light-bronze" class="w-60 p-4!"
+							>I realize my individuality by my role.</Card
+						>
+						<Card theme="light-bronze" class="w-60 p-4!">I am satisfied with my role.</Card>
+						<Card theme="light-bronze" class="w-60 p-4!">I gain confidence because of my role.</Card
+						>
 					</div>
 					<div class="text-xl text-light-bronze-500">
-						<div class="absolute top-152 left-78 -rotate-24">
+						<div class="absolute top-160 ml-46 -rotate-24">
 							<FontAwesomeIcon icon={faArrowRightLong} />
 						</div>
-						<div class="absolute top-168 left-78">
+						<div class="absolute top-177 ml-46">
 							<FontAwesomeIcon icon={faArrowRightLong} />
 						</div>
-						<div class="absolute top-184 left-78 rotate-24">
+						<div class="absolute top-194 ml-46 rotate-24">
 							<FontAwesomeIcon icon={faArrowRightLong} />
 						</div>
 					</div>
