@@ -109,7 +109,7 @@
 					<ListItem>Regularly revisit and reaffirm shared mission and objectives.</ListItem>
 					<ListItem>
 						<strong>
-							<Link theme="dry-sage" href="/trust-building">See: Building trust</Link>
+							<Link theme="dry-sage" href="/collaborative-alignment">See: 4-P Foundation</Link>
 						</strong>
 					</ListItem>
 				</List>
