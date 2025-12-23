@@ -37,7 +37,7 @@
 				<List title="Trust between partners">
 					<ListItem theme="cornsilk">Foundational for equitable collaboration.</ListItem>
 					<ListItem theme="cornsilk">
-						Trust enables open communication, shared decision-making, and sustained engagement
+						Trust enables open communication, shared decision-making, and sustained engagement.
 					</ListItem>
 					<ListItem theme="cornsilk">
 						<strong>
@@ -123,7 +123,7 @@
 		</div>
 	</section>
 
-	<StickyTitle>Operational Proceses</StickyTitle>
+	<StickyTitle>Operational Processes</StickyTitle>
 
 	<section class="container mb-8">
 		<div class="grid grid-cols-2 gap-8">
@@ -235,7 +235,7 @@
 					</ListItem>
 				</List>
 				<List title="Poor or unequal decision-making">
-					<ListItem>Researchers needs to ensure decentralized decision processes.</ListItem>
+					<ListItem>Researchers need to ensure decentralized decision processes.</ListItem>
 					<ListItem>
 						<strong>
 							<Link theme="dry-sage" href="/best-practices#Promote-Equitable-Decision-Making">

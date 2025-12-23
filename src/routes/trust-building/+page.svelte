@@ -72,7 +72,7 @@
 						<strong>Attentive:</strong> observant, listens carefully; responds to concerns
 					</ListItem>
 					<ListItem theme="cornsilk">
-						<strong>Empathetic:</strong> able to understand others feelings
+						<strong>Empathetic:</strong> able to understand others' feelings
 					</ListItem>
 					<ListItem theme="cornsilk"><strong>Honest:</strong> truthful and open</ListItem>
 					<ListItem theme="cornsilk">
@@ -96,7 +96,7 @@
 					<ListItem theme="light-bronze">Balance power dynamics</ListItem>
 					<ListItem theme="light-bronze">Be transparent about goals, motivations</ListItem>
 					<ListItem theme="light-bronze">
-						Create infrastructure and policies to community stakeholders meaningful involvement
+						Create infrastructure and policies for meaningful community stakeholder involvement
 					</ListItem>
 					<ListItem theme="light-bronze">Develop cultural humility</ListItem>
 					<ListItem theme="light-bronze">Equitably distribute resources</ListItem>

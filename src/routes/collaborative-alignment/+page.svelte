@@ -79,7 +79,7 @@
 						experiences.
 					</ListItem>
 					<ListItem theme="cornsilk">
-						Emotional investment grows when people feel heard and valued .
+						Emotional investment grows when people feel heard and valued.
 					</ListItem>
 				</List>
 				<Blockquote>
@@ -117,7 +117,7 @@
 			<div class="flex items-center gap-6">
 				<Card theme="light-bronze">
 					<List title="Are people aligned with the process?">
-						<ListItem theme="light-bronze">Is there buy-in to the group’s operating rules?</ListItem
+						<ListItem theme="light-bronze">Is there buy-in to the group's operating rules?</ListItem
 						>
 						<ListItem theme="light-bronze">Are roles and responsibilities clear?</ListItem>
 						<ListItem theme="light-bronze">
@@ -131,7 +131,7 @@
 			<Card theme="cornsilk" class="justify-self-end">
 				<CardTitle theme="cornsilk">Product</CardTitle>
 				<List title="The Tangible Outcomes That Prove Progress: without results, attention fades">
-					<ListItem theme="cornsilk">Deliverables must be meaningful and measurable .</ListItem>
+					<ListItem theme="cornsilk">Deliverables must be meaningful and measurable.</ListItem>
 					<ListItem theme="cornsilk">
 						Milestones celebrate progress and sustain motivation.
 					</ListItem>

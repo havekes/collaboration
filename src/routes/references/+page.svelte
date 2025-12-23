@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Referencess</title>
+	<title>References</title>
 </svelte:head>
 
 <div class="my-8 flex flex-col items-center space-y-8">
