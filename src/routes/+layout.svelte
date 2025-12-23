@@ -44,7 +44,7 @@
 				href="/"
 			>
 				<span class="text-2xl font-bold">Collaboration guide</span>
-				<span class="text-sm">Comunity-Based Participatory Research</span>
+				<span class="text-sm">Community-Based Participatory Research</span>
 			</a>
 			<menu class="flex flex-1 justify-end gap-2">
 				{#each menuItems as item}
